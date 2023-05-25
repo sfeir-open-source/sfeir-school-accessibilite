@@ -2,7 +2,7 @@
 
 # Trainer
 
-![speaker](./assets/images/speaker-romain.jpg)
+![speaker](./assets/images/pauline.jpeg)
 ![badge first-badge](./assets/images/js-logo.png)
 ![badge second-badge](./assets/images/react-logo.png)
 ![badge third-badge](./assets/images/svelte-logo.png)
@@ -13,9 +13,11 @@
 ### Developer
 <!-- .element: class="icon-rule icon-first" -->
 
-### [@rtorond](https://twitter.com/rtorond)
+### [@goby_elfe](https://twitter.com/goby_elfe)
 <!-- .element: class="icon-second" -->
 
 Notes:
 
 Speaker **Pauline**
+
+METTRE HTML CSS JS

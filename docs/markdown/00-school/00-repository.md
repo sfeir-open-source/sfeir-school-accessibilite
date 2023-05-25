@@ -8,4 +8,5 @@ https://github.com/sfeir-open-source/sfeir-school-accessibilite
 
 <br>
 
-Notes:
+Notes: 
+Pauline

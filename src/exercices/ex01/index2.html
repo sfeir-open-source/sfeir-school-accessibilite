@@ -1,0 +1,135 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.contact {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* Carousel styles */
+
+.carousel {
+    position: relative;
+}
+
+.carousel .contact {
+    display: none;
+}
+
+.carousel .contact.active {
+    display: block;
+}
+
+.carousel-buttons {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.carousel .carousel-buttons {
+    display: flex;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    let contacts = [
+        { name: 'John Doe', phone: '+1234567890' },
+        { name: 'Jane Doe', phone: '+0987654321' },
+        // add more contacts here...
+    ];
+    let listView = true;
+    let activeContactIndex = 0;
+    const contactsSection = document.getElementById('contacts');
+    const contactTemplate = document.getElementById('contactTemplate').content;
+    const toggleViewBtn = document.getElementById('toggleView');
+    const searchInput = document.getElementById('search');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+
+    function renderContacts() {
+        contactsSection.innerHTML = '';
+        contacts.forEach(function (contact, index) {
+            const contactElement = document.importNode(contactTemplate, true);
+            contactElement.querySelector('.name').textContent = contact.name;
+            contactElement.querySelector('.phone').textContent = contact.phone;
+            contactElement.querySelector('.contact').dataset.index = index;
+            if (!listView && index === activeContactIndex) {
+                contactElement.querySelector('.contact').classList.add('active');
+            }
+            contactsSection.appendChild(contactElement);
+        });
+    }
+    function toggleView() {
+        listView = !listView;
+        contactsSection.classList.toggle('carousel');
+        renderContacts();
+    }
+
+    function filterContacts() {
+        const searchTerm = searchInput.value.toLowerCase();
+        contacts = contacts.filter(function (contact) {
+            return contact.name.toLowerCase().includes(searchTerm) || contact.phone.includes(searchTerm);
+        });
+        renderContacts();
+    }
+
+    function prevContact() {
+        if (activeContactIndex > 0) {
+            activeContactIndex--;
+            renderContacts();
+        }
+    }
+
+    function nextContact() {
+        if (activeContactIndex < contacts.length - 1) {
+            activeContactIndex++;
+            renderContacts();
+        }
+    }
+
+    toggleViewBtn.addEventListener('click', toggleView);
+    searchInput.addEventListener('input', filterContacts);
+    prevBtn.addEventListener('click', prevContact);
+    nextBtn.addEventListener('click', nextContact);
+    renderContacts();
+});
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="toggleView">Toggle View</button>
+        <input type="text" id="search" placeholder="Search contact">
+    </header>
+    <section id="contacts"></section>
+    <div class="carousel-buttons">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+    <template id="contactTemplate">
+        <article class="contact">
+            <p class="name"></p>
+            <p class="phone"></p>
+        </article>
+    </template>
+    <script src="main.js"></script>
+</body>
+</html>

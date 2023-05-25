@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Book</title>
+  <style>
+    body {
+      height: 600px;
+      margin: 0;
+      display: grid;
+      grid-template-rows: 500px 100px;
+      grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+      align-items: center;
+      justify-items: center;
+      font-family: Roboto, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    main#carousel {
+      grid-row: 1 / 2;
+      grid-column: 1 / 8;
+      width: 100vw;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transform-style: preserve-3d;
+      perspective: 600px;
+      --items: 5;
+      --middle: 3;
+      --position: 1;
+      pointer-events: none;
+    }
+
+    div.item {
+      position: absolute;
+      width: 300px;
+      height: 400px;
+      background-color: coral;
+      --r: calc(var(--position) - var(--offset));
+      --abs: max(calc(var(--r) * -1), var(--r));
+      transition: all 0.25s linear;
+      transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
+      z-index: calc((var(--position) - var(--abs)));
+    }
+
+    div.item:nth-of-type(1) {
+      --offset: 1;
+      background-color: #90f1ef;
+    }
+    div.item:nth-of-type(2) {
+      --offset: 2;
+      background-color: #ff70a6;
+    }
+    div.item:nth-of-type(3) {
+      --offset: 3;
+      background-color: #ff9770;
+    }
+    div.item:nth-of-type(4) {
+      --offset: 4;
+      background-color: #ffd670;
+    }
+    div.item:nth-of-type(5) {
+      --offset: 5;
+      background-color: #e9ff70;
+    }
+
+    input:nth-of-type(1) {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+    input:nth-of-type(1):checked ~ main#carousel {
+      --position: 1;
+    }
+
+    input:nth-of-type(2) {
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+    }
+    input:nth-of-type(2):checked ~ main#carousel {
+      --position: 2;
+    }
+
+    input:nth-of-type(3) {
+      grid-column: 4 / 5;
+      grid-row: 2 / 3;
+    }
+    input:nth-of-type(3):checked ~ main#carousel {
+      --position: 3;
+    }
+
+    input:nth-of-type(4) {
+      grid-column: 5 / 6;
+      grid-row: 2 / 3;
+    }
+    input:nth-of-type(4):checked ~ main#carousel {
+      --position: 4;
+    }
+
+    input:nth-of-type(5) {
+      grid-column: 6 / 7;
+      grid-row: 2 / 3;
+    }
+    input:nth-of-type(5):checked ~ main#carousel {
+      --position: 5;
+    }
+
+    .phone-book-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .toggle-button {
+      margin-top: 20px;
+    }
+
+    .phone-book-list {
+      display: none;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 20px;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .phone-book-list li {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+    }
+
+    .phone-book-list img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 16px;
+    }
+
+    .phone-book-list h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .phone-book-list p {
+      margin: 0;
+      font-size: 14px;
+      color: #666666;
+    }
+
+    .search-container {
+      margin-top: 20px;
+    }
+
+    .search-input {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #cccccc;
+      font-size: 14px;
+      width: 300px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <input type="radio" name="position" checked />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <input type="radio" name="position" />
+  <main id="carousel">
+    <div class="item">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Person 1">
+        <h2>John Doe</h2>
+        <p>123-456-7890</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Person 2">
+        <h2>Jane Smith</h2>
+        <p>987-654-3210</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Person 3">
+        <h2>Mike Johnson</h2>
+        <p>456-789-0123</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Person 4">
+        <h2>Sarah Davis</h2>
+        <p>789-012-3456</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Person 5">
+        <h2>Mark Wilson</h2>
+        <p>234-567-8901</p>
+      </div>
+    </div>
+  </main>
+
+  <div class="phone-book-container">
+    <ul class="phone-book-list">
+      <li>
+        <img src="https://via.placeholder.com/200" alt="Person 1">
+        <div>
+          <h2>John Doe</h2>
+          <p>123-456-7890</p>
+        </div>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/200" alt="Person 2">
+        <div>
+          <h2>Jane Smith</h2>
+          <p>987-654-3210</p>
+        </div>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/200" alt="Person 3">
+        <div>
+          <h2>Mike Johnson</h2>
+          <p>456-789-0123</p>
+        </div>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/200" alt="Person 4">
+        <div>
+          <h2>Sarah Davis</h2>
+          <p>789-012-3456</p>
+        </div>
+      </li>
+      <li>
+        <img src="https://via.placeholder.com/200" alt="Person 5">
+        <div>
+          <h2>Mark Wilson</h2>
+          <p>234-567-8901</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search..." />
+    </div>
+
+    <button class="toggle-button" onclick="toggleView()">Toggle View</button>
+  </div>
+
+  <script>
+    function toggleView() {
+      const carousel = document.getElementById('carousel');
+      const phoneBookList = document.querySelector('.phone-book-list');
+
+      if (carousel.style.display === 'none') {
+        carousel.style.display = 'block';
+        phoneBookList.style.display = 'none';
+      } else {
+        carousel.style.display = 'none';
+        phoneBookList.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
