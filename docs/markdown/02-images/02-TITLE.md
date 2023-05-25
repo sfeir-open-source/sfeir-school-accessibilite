@@ -1,6 +1,3 @@
-<!-- .slide: class="transition-white sfeir-bg-red" -->
+<!-- .slide: class="transition-bg-sfeir-2" -->
 
 # **Les images**
-
-## **Le premier critère**
-

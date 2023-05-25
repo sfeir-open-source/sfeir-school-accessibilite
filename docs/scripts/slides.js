@@ -10,121 +10,118 @@ function schoolSlides() {
 		'00-school/00-deroulement.md',
 		'00-school/00-slides.md',
 		'00-school/00-repository.md',
-		'00-school/00-plan.md'
+		'00-school/00-plan.md',
 	];
 }
 
-function svelteSlides() {
+function introSlides() {
 	return [
-		'01-svelte-kezako/01-TITLE.md',
-		'01-svelte-kezako/01-logo-rich-harris.md',
-		'01-svelte-kezako/01-compiler.md',
-		'01-svelte-kezako/01-dom-vs-virtual.md',
-		'01-svelte-kezako/01-lets-go.md',
-		'01-svelte-kezako/01-repl-link.md'
+		'01-intro/01-TITLE.md',
+		'01-intro/01-accessibilite.md',
+		'01-intro/01-handicap.md',
+		'01-intro/01-spectre.md',
+		'01-intro/01-chiffres.md',
+		'01-intro/01-timeline.md',
+		'01-intro/01-outils.md',
+		'01-intro/01-wcag.md',
+		'01-intro/01-rgaa.md',
+		'01-intro/01-aria.md',
+		'01-intro/01-aria02.md',
+		'01-intro/01-erreurs.md',
+		'01-intro/01-lets-go.md',
+		'01-intro/01-screen-reader.md',
+		'01-intro/01-masquage.md'
 	];
 }
 
-function componentBaseSlides() {
+function imagesSlides() {
 	return [
-		'02-component-base/02-TITLE.md',
-		'02-component-base/02-component-file.md',
-		'02-component-base/02-props-nested.md',
-		'02-component-base/02-workshop-01.md'
+		'02-images/02-TITLE.md',
+		'02-images/02-alt.md',
+		'02-images/02-alt02.md',
+		'02-images/02-quand.md',
+		'02-images/02-decision-tree.md',
+		'02-images/02-volume.md',
+		'02-images/02-workshop.md',
+		'02-images/02-workshop02.md',
+		'02-images/02-correction.md'
 	];
 }
 
-function slotsSlides() {
+
+function linksSlides() {
 	return [
-		'03-slots/03-TITLE.md',
-		'03-slots/03-slot-basic.md',
-		'03-slots/03-slot-named.md',
-		'03-slots/03-workshop-02.md'
+		'03-liens/03-TITLE.md',
+		'03-liens/03-texte.md',
+		'03-liens/03-image.md',
+		'03-liens/03-composite.md',
+		'03-liens/03-lien-vide.md',
+		'03-liens/03-workshop.md',
+		'03-liens/03-correction.md'
 	];
 }
 
-function stateAndEventsSlides() {
+function colorsSlides() {
 	return [
-		'04-state-and-events/04-TITLE.md',
-		'04-state-and-events/04-assignment.md',
-		'04-state-and-events/04-mutation.md',
-		'04-state-and-events/04-dollar.md',
-		'04-state-and-events/04-event.md',
-		'04-state-and-events/04-event-modifier.md',
-		'04-state-and-events/04-event-component.md',
-		'04-state-and-events/04-workshop-03.md'
+		'04-couleurs/04-TITLE.md',
+		'04-couleurs/04-couleurs-vs-informations.md',
+		'04-couleurs/04-couleurs-vs-informations02.md',
+		'04-couleurs/04-outils.md',
+		'04-couleurs/04-contraste.md',
+		'04-couleurs/04-contraste02.md',
+		'04-couleurs/04-workshop.md',
+		'04-couleurs/04-correction.md'
+	]
+}
+
+function focusSlides() {
+	return [
+		'05-focus/05-TITLE.md',
+		'05-focus/05-navigation.md',
+		'05-focus/05-navigation02.md',
+		'05-focus/05-navigation03.md',
+		'05-focus/05-controles.md',
+		'05-focus/05-controles02.md',
+		'05-focus/05-tabindex.md',
+		'05-focus/05-workshop.md',
+		'05-focus/05-correction.md'
 	];
 }
 
-function eachIfSlides() {
+function formsSlides() {
 	return [
-		'05-each-if/05-TITLE.md',
-		'05-each-if/05-if.md',
-		'05-each-if/05-if-else.md',
-		'05-each-if/05-if-else-if-else.md',
-		'05-each-if/05-each.md',
-		'05-each-if/05-each-keyed.md',
-		'05-each-if/05-workshop-04.md'
-	];
-}
-function lifecyclesSlides() {
-	return [
-		'06-lifecycles/06-TITLE.md',
-		'06-lifecycles/06-onMount.md',
-		'06-lifecycles/06-apicall.md',
-		'06-lifecycles/06-update.md',
-		'06-lifecycles/06-onDestroy.md',
-		'06-lifecycles/06-tick.md',
-		'06-lifecycles/06-workshop-05.md'
+		'06-formulaires/06-TITLE.md',
+		'06-formulaires/06-labels.md',
+		'06-formulaires/06-labels02.md',
+		'06-formulaires/06-groupes.md',
+		'06-formulaires/06-groupes02.md',
+		'06-formulaires/06-sens.md',
+		'06-formulaires/06-saisie.md',
+		'06-formulaires/06-workshop.md',
+		'06-formulaires/06-correction.md'
 	];
 }
 
-function storesSlides() {
+function conclusionSlides() {
 	return [
-		'07-stores/07-TITLE.md',
-		'07-stores/07-props-drilling.md',
-		'07-stores/07-store-live-coding.md',
-		'07-stores/07-svelte-elements.md',
-		'07-stores/07-workshop-06.md'
+		'07-conclusion/07-TITLE.md',
+		'07-conclusion/07-misc.md',
+		'07-conclusion/07-misc-suite.md',
+		'07-conclusion/07-homeworkshop.md'
 	];
 }
 
-function formSlides() {
-	return [
-		'08-form/08-TITLE.md',
-		'08-form/08-text.md',
-		'08-form/08-checkbox.md',
-		'08-form/08-select.md',
-		'08-form/08-group.md',
-		'08-form/08-binding-component.md',
-		'08-form/08-this.md',
-		'08-form/08-this-component.md',
-		'08-form/08-workshop-07.md'
-	];
-}
-
-function svelteKitSlides() {
-	return [
-		'09-sveltekit/09-TITLE.md',
-		'09-sveltekit/09-presentation.md',
-		'09-sveltekit/09-files-structures.md',
-		'09-sveltekit/09-workshop-08.md'
-	];
-}
 
 function formation() {
 	return [
-		//
-		...schoolSlides(), //
-		...svelteSlides(), //
-		...componentBaseSlides(), //
-		...slotsSlides(), //
-		...stateAndEventsSlides(), //
-		...eachIfSlides(), //
-		...lifecyclesSlides(), //
-		...storesSlides(), //
-		...formSlides(), //
-		...svelteKitSlides() //
+		...schoolSlides(),
+		...introSlides(),
+		...imagesSlides(),
+		...linksSlides(),
+		...colorsSlides(),
+		...focusSlides(),
+		...formsSlides(),
+		...conclusionSlides(),
 	].map((slidePath) => {
 		return { path: slidePath };
 	});
