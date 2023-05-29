@@ -3,6 +3,7 @@
 # Rassembler les informations
 
 > 11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?
+
 > 11.6 Dans chaque formulaire, chaque regroupement de champs de même nature at-il une légende ?
 
 Notes:

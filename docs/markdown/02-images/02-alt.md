@@ -2,4 +2,4 @@
 
 # Les alternatives
 
-> 1.1 Chaque image est-elle porteuse d'une alternative textuelle 
+> 1.1 Chaque image est-elle porteuse d'une alternative textuelle ?

@@ -4,7 +4,7 @@
 
 * HTML / CSS / JS
 * Les référentiels
-* Dev tools /Lighthouse / plugin google
+* Dev tools / Lighthouse / plugins google
 * ESLint plugins (JSX, svelte …)
 * ARIA
 * UX / UI / Ergonomie

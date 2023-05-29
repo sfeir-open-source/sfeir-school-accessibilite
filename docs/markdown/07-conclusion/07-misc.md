@@ -1,6 +1,6 @@
 <!-- .slide: -->
 
-# Que reste-t'il ?
+# Que reste-t-il ?
 
 ## Vu en partie: 
 

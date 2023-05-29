@@ -3,7 +3,7 @@
 # Plan
 
 * L'accessibilité c koi ? pourkoua ?
-* Les images et quand les vocaliser
+* Les images 
 * Les liens
 * Les couleurs et contrastes
 * Le focus et les interactions claviers

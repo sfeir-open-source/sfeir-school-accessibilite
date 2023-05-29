@@ -8,9 +8,9 @@
 
 * WCAG Color Contrast Checker (extension chrome)
 
-* app.contrast-finder.org pour trouver de bon contraste
+* app.contrast-finder.org pour trouver de bons contrastes
 
-* whocanuse.com pour tester les déficiences/pathologie même légère
+* whocanuse.com pour tester les déficiences/pathologies même légères
 
 Notes:
 https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=fr

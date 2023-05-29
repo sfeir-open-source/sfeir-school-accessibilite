@@ -7,7 +7,7 @@ Devenez un a11y 🤗 :
 Objectif : rendre les images accessibles 
 
 TODO : 
-- les images du caroussel
+- les images du carousel
 - la ou les icônes
 - l'image de décoration
 - l'image volumineuse

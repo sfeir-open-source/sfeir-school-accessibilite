@@ -2,7 +2,7 @@
 
 # Workshop 05
 
-Des labels bien nommés, bien groupés, vous savez ce qui vous attends 🏷️ : 
+Des labels bien nommés, bien groupés, vous savez ce qui vous attend 🏷️ : 
 
 Objectif: Rendre accessible le formulaire de création de compte
 
