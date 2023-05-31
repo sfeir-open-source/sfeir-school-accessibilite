@@ -1,4 +1,4 @@
-/** 
+/**
 * Global
 **/
 body {
@@ -30,7 +30,7 @@ body {
     border: 0 !important;
 }
 
-/** 
+/**
 * Homepage
 **/
 .carousel {
@@ -57,7 +57,8 @@ body {
 }
 .card {
     max-width: 20%;
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -106,7 +107,7 @@ body {
     background-color: #f0f0f0;
 }
 
-/** 
+/**
 * Account
 **/
 form {

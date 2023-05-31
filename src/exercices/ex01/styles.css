@@ -1,4 +1,4 @@
-/** 
+/**
 * Global
 **/
 body {
@@ -13,8 +13,13 @@ body {
     color: #ffb6c1;
     font-size: 20px;
 }
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
+}
 
-/** 
+/**
 * Homepage
 **/
 .carousel {
@@ -41,7 +46,8 @@ body {
 }
 .card {
     width: auto;
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -89,7 +95,7 @@ body {
     color: #ffb6c1;
 }
 
-/** 
+/**
 * Account
 **/
 form {
