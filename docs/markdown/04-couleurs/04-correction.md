@@ -2,12 +2,12 @@
 
 # Correction 03
 
-// Imprim écran de la valeur mauvaise
+Couleurs:
 
-// imprim de la bonne valeur
+**Avant**
+![h-200](./assets/images/colors-before.png)
 
-// une fois couleur
-
-// une fois composant
+**Après**
+![h-200](./assets/images/colors-after.png)
 
 Notes:

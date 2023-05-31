@@ -1,0 +1,148 @@
+/** 
+* Global
+**/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffb6c1;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 15px;
+    color: #ffb6c1;
+    font-size: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffb6c1;
+    margin: 0 10px;
+}
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/** 
+* Homepage
+**/
+.carousel {
+    display: flex;
+    overflow-x: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+.carousel img {
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.carousel div {
+    margin-right: 20px;
+}
+.carousel h3,
+.carousel h4 {
+    margin: 0;
+    text-align: center;
+}
+.card {
+    max-width: 20%;
+    padding: 100px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selected {
+    color: #ffb6c1;
+}
+.card:not(.selected) {
+    opacity: 0.5;
+    width: 50%;
+}
+
+.atelier {
+    padding: 50px;
+}
+
+#photo-atelier {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bye {
+    padding: 50px;
+}
+
+#photo-bye {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.infos {
+    font-size: 35px;
+    padding: 20px;
+    color: #ffb6c1;
+    background-color: #f0f0f0;
+}
+
+/** 
+* Account
+**/
+form {
+    margin: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.submit-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffb6c1;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ff69b4;
+}

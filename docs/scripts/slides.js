@@ -70,7 +70,8 @@ function colorsSlides() {
 		'04-couleurs/04-contraste.md',
 		'04-couleurs/04-contraste02.md',
 		'04-couleurs/04-workshop.md',
-		'04-couleurs/04-correction.md'
+		'04-couleurs/04-correction.md',
+		'04-couleurs/04-correction02.md'
 	]
 }
 

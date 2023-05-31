@@ -1,276 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Phone Book</title>
-  <style>
-    body {
-      height: 600px;
-      margin: 0;
-      display: grid;
-      grid-template-rows: 500px 100px;
-      grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-      align-items: center;
-      justify-items: center;
-      font-family: Roboto, sans-serif;
-      background-color: #f5f5f5;
-    }
-
-    main#carousel {
-      grid-row: 1 / 2;
-      grid-column: 1 / 8;
-      width: 100vw;
-      height: 500px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      transform-style: preserve-3d;
-      perspective: 600px;
-      --items: 5;
-      --middle: 3;
-      --position: 1;
-      pointer-events: none;
-    }
-
-    div.item {
-      position: absolute;
-      width: 300px;
-      height: 400px;
-      background-color: coral;
-      --r: calc(var(--position) - var(--offset));
-      --abs: max(calc(var(--r) * -1), var(--r));
-      transition: all 0.25s linear;
-      transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
-      z-index: calc((var(--position) - var(--abs)));
-    }
-
-    div.item:nth-of-type(1) {
-      --offset: 1;
-      background-color: #90f1ef;
-    }
-    div.item:nth-of-type(2) {
-      --offset: 2;
-      background-color: #ff70a6;
-    }
-    div.item:nth-of-type(3) {
-      --offset: 3;
-      background-color: #ff9770;
-    }
-    div.item:nth-of-type(4) {
-      --offset: 4;
-      background-color: #ffd670;
-    }
-    div.item:nth-of-type(5) {
-      --offset: 5;
-      background-color: #e9ff70;
-    }
-
-    input:nth-of-type(1) {
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
-    }
-    input:nth-of-type(1):checked ~ main#carousel {
-      --position: 1;
-    }
-
-    input:nth-of-type(2) {
-      grid-column: 3 / 4;
-      grid-row: 2 / 3;
-    }
-    input:nth-of-type(2):checked ~ main#carousel {
-      --position: 2;
-    }
-
-    input:nth-of-type(3) {
-      grid-column: 4 / 5;
-      grid-row: 2 / 3;
-    }
-    input:nth-of-type(3):checked ~ main#carousel {
-      --position: 3;
-    }
-
-    input:nth-of-type(4) {
-      grid-column: 5 / 6;
-      grid-row: 2 / 3;
-    }
-    input:nth-of-type(4):checked ~ main#carousel {
-      --position: 4;
-    }
-
-    input:nth-of-type(5) {
-      grid-column: 6 / 7;
-      grid-row: 2 / 3;
-    }
-    input:nth-of-type(5):checked ~ main#carousel {
-      --position: 5;
-    }
-
-    .phone-book-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .toggle-button {
-      margin-top: 20px;
-    }
-
-    .phone-book-list {
-      display: none;
-      width: 100%;
-      max-width: 400px;
-      margin-top: 20px;
-      padding: 0;
-      list-style-type: none;
-    }
-
-    .phone-book-list li {
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      padding: 16px;
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-    }
-
-    .phone-book-list img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 16px;
-    }
-
-    .phone-book-list h2 {
-      margin: 0;
-      font-size: 18px;
-    }
-
-    .phone-book-list p {
-      margin: 0;
-      font-size: 14px;
-      color: #666666;
-    }
-
-    .search-container {
-      margin-top: 20px;
-    }
-
-    .search-input {
-      padding: 8px;
-      border-radius: 4px;
-      border: 1px solid #cccccc;
-      font-size: 14px;
-      width: 300px;
-      max-width: 100%;
-    }
-  </style>
+    <title>HuggableBuddies</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-  <input type="radio" name="position" checked />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" />
-  <main id="carousel">
-    <div class="item">
-      <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Person 1">
-        <h2>John Doe</h2>
-        <p>123-456-7890</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Person 2">
-        <h2>Jane Smith</h2>
-        <p>987-654-3210</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Person 3">
-        <h2>Mike Johnson</h2>
-        <p>456-789-0123</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Person 4">
-        <h2>Sarah Davis</h2>
-        <p>789-012-3456</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Person 5">
-        <h2>Mark Wilson</h2>
-        <p>234-567-8901</p>
-      </div>
-    </div>
-  </main>
-
-  <div class="phone-book-container">
-    <ul class="phone-book-list">
-      <li>
-        <img src="https://via.placeholder.com/200" alt="Person 1">
-        <div>
-          <h2>John Doe</h2>
-          <p>123-456-7890</p>
+    <div class="navbar">
+        <div>Huggable Buddies</div>
+        <div style="display: flex; margin-left: 100px;">
+            <div id="home">Home</div>
+            <div id="account" style="margin-left: 40px;">Account</div>
         </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/200" alt="Person 2">
-        <div>
-          <h2>Jane Smith</h2>
-          <p>987-654-3210</p>
+    </div>
+    <div class="carousel">
+        <div class="card" id="teddy">
+            <img src="../../img/teddy.jpg">
+            <h3>Teddy</h3>
+            <h4>$10</h4>
         </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/200" alt="Person 3">
-        <div>
-          <h2>Mike Johnson</h2>
-          <p>456-789-0123</p>
+        <div class="card" id="simba" >
+            <img src="../../img/simba.jpg">
+            <h3>Simba</h3>
+            <h4>$15</h4>
         </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/200" alt="Person 4">
-        <div>
-          <h2>Sarah Davis</h2>
-          <p>789-012-3456</p>
+        <div class="card selected" id="max">
+            <img src="../../img/max.jpg">
+            <h3>Max</h3>
+            <h4>$16</h4>
         </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/200" alt="Person 5">
-        <div>
-          <h2>Mark Wilson</h2>
-          <p>234-567-8901</p>
+        <div class="card" id="buggs">
+            <img src="../../img/buggs.jpg">
+            <h3>Buggs</h3>
+            <h4>$14</h4>
         </div>
-      </li>
-    </ul>
-
-    <div class="search-container">
-      <input type="text" class="search-input" placeholder="Search..." />
     </div>
 
-    <button class="toggle-button" onclick="toggleView()">Toggle View</button>
-  </div>
+    <a class="atelier" href="https://goo.gl/maps/c87yWYBZcbkhZoqYA"  tabindex="1">
+        <img id="photo-atelier" src="../../img/atelier-texte.jpg">
+    </a>
+        
+    <div class="custom-button">
+        <div role="button" class="submit-btn">Personnalisez votre peluche</div>
+    </div>
 
-  <script>
-    function toggleView() {
-      const carousel = document.getElementById('carousel');
-      const phoneBookList = document.querySelector('.phone-book-list');
+    <div class="infos">
+        Ouvert : 
+        <div>
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+            Du mardi au samedi
+        </div>
+        
+        <div>
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+            De 10h à 19h
+        </div>
+        <div>
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+            Cliquez <a href="https://goo.gl/maps/c87yWYBZcbkhZoqYA">ici</a> pour voir sur la carte où se trouve le magasin
+        </div>
+    </div>
 
-      if (carousel.style.display === 'none') {
-        carousel.style.display = 'block';
-        phoneBookList.style.display = 'none';
-      } else {
-        carousel.style.display = 'none';
-        phoneBookList.style.display = 'block';
-      }
-    }
-  </script>
+    <div class="infos bye">
+        <span style="text-align: center;">A bientôt:</span>
+        <img id="photo-bye" src="../../img/waving.jpg">
+    </div>
+
+    <script type="text/javascript" src="./nav.js"></script>
+    <script type="text/javascript" src="./carousel.js"></script>
 </body>
 </html>
