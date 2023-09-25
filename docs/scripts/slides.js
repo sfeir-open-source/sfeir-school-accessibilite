@@ -16,6 +16,10 @@ function schoolSlides() {
 
 function introSlides() {
 	return [
+		'01-intro/01-intro.md',
+		'01-intro/01-rgaa.md',
+		'01-intro/01-audit.md',
+		'01-intro/01-tools.md',
 		'01-intro/01-TITLE.md',
 		'01-intro/01-accessibilite.md',
 		'01-intro/01-handicap.md',
@@ -24,7 +28,7 @@ function introSlides() {
 		'01-intro/01-timeline.md',
 		'01-intro/01-outils.md',
 		'01-intro/01-wcag.md',
-		'01-intro/01-rgaa.md',
+		'01-intro/01-rgaa-school.md',
 		'01-intro/01-aria.md',
 		'01-intro/01-aria02.md',
 		'01-intro/01-erreurs.md',
@@ -105,6 +109,8 @@ function formsSlides() {
 
 function conclusionSlides() {
 	return [
+		'07-conclusion/07-ressources.md',
+		'07-conclusion/07-conclusion.md',
 		'07-conclusion/07-TITLE.md',
 		'07-conclusion/07-misc.md',
 		'07-conclusion/07-misc-suite.md',

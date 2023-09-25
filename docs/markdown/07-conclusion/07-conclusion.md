@@ -1,0 +1,1 @@
+![center h-1000](../assets/images/stephaniewalter-people-first-accessibility-needs.jpg)
