@@ -1,7 +1,7 @@
 {
-  "name": "sfeirschoolaccessibilite",
+  "name": "sfeirschoolxxx",
   "version": "1.0.0",
-  "description": "Sfeir School Accessibilité with revealJS",
+  "description": "Sfeir School XXX with revealJS",
   "scripts": {
     "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
     "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
