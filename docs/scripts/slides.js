@@ -4,9 +4,8 @@ import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-s
 function schoolSlides() {
 	return [
 		'00-school/00-TITLE.md',
-		'00-school/00-speaker-pauline.md',
-		'00-school/00-speaker-pierre.md',
-		'00-school/00-participant.md',
+		'00-school/00-speaker-gerome.md',
+		'00-school/00-speaker-maella.md',
 		'00-school/00-deroulement.md',
 		'00-school/00-slides.md',
 		'00-school/00-repository.md',
@@ -18,8 +17,6 @@ function introSlides() {
 	return [
 		'01-intro/01-intro.md',
 		'01-intro/01-rgaa.md',
-		'01-intro/01-audit.md',
-		'01-intro/01-tools.md',
 		'01-intro/01-TITLE.md',
 		'01-intro/01-accessibilite.md',
 		'01-intro/01-handicap.md',
@@ -107,14 +104,21 @@ function formsSlides() {
 	];
 }
 
+function auditToolsSlides() {
+	return [
+		'07-audit-tools/07-audit.md',
+		'07-audit-tools/07-tools.md',
+	];
+}
+
 function conclusionSlides() {
 	return [
-		'07-conclusion/07-ressources.md',
-		'07-conclusion/07-conclusion.md',
-		'07-conclusion/07-TITLE.md',
-		'07-conclusion/07-misc.md',
-		'07-conclusion/07-misc-suite.md',
-		'07-conclusion/07-homeworkshop.md'
+		'08-conclusion/08-ressources.md',
+		'08-conclusion/08-conclusion.md',
+		'08-conclusion/08-TITLE.md',
+		'08-conclusion/08-misc.md',
+		'08-conclusion/08-misc-suite.md',
+		'08-conclusion/08-homeworkshop.md'
 	];
 }
 
@@ -128,6 +132,7 @@ function formation() {
 		...colorsSlides(),
 		...focusSlides(),
 		...formsSlides(),
+		...auditToolsSlides(),
 		...conclusionSlides(),
 	].map((slidePath) => {
 		return { path: slidePath };
