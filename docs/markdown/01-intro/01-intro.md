@@ -1,6 +1,6 @@
 # Pour qui est-elle destinée ?
 
-![center h-550](../assets/images/stephaniewalter-accessibility-rainbow.jpg)
+![center h-550](../assets/images/stephaniewalter-arc-en-ciel-accessibilite.jpg)
 
 - Chaque type d'handicap à ses propres besoins
 
@@ -13,7 +13,7 @@
 
 # Quel est le besoin des personnes concernées ?
 
-![center h-500](../assets/images/stephaniewalter-accessibility-design-innovation.jpg)
+![center h-500](../assets/images/stephaniewalter-accessibilite-design-innovation.jpg)
 
 - Composante fondamentale du design, compatible avec l'innovation
 

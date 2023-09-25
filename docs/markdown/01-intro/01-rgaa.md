@@ -8,7 +8,7 @@
 
 # Kézaco ?
 
-![center h-500](../assets/images/stephaniewalter-accessibility-compliance-levels-to-reach.jpg)
+![center h-500](../assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg)
 
 - RGAA (Référentiel Général d'Amélioration de l'Accessibilité), 106 critères de contrôle
 
