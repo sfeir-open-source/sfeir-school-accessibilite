@@ -9,29 +9,23 @@ function schoolSlides() {
 		'00-school/00-deroulement.md',
 		'00-school/00-slides.md',
 		'00-school/00-repository.md',
-		'00-school/00-plan.md',
+		'00-school/00-plan.md'
 	];
 }
 
 function introSlides() {
 	return [
-		'01-intro/01-intro.md',
-		'01-intro/01-rgaa.md',
 		'01-intro/01-TITLE.md',
 		'01-intro/01-accessibilite.md',
+		'01-intro/01-destination.md',
 		'01-intro/01-handicap.md',
-		'01-intro/01-spectre.md',
 		'01-intro/01-chiffres.md',
 		'01-intro/01-timeline.md',
-		'01-intro/01-outils.md',
-		'01-intro/01-wcag.md',
-		'01-intro/01-rgaa-school.md',
 		'01-intro/01-aria.md',
 		'01-intro/01-aria02.md',
 		'01-intro/01-erreurs.md',
-		'01-intro/01-lets-go.md',
-		'01-intro/01-screen-reader.md',
-		'01-intro/01-masquage.md'
+		'01-intro/01-masquage.md',
+		'01-intro/01-rgaa.md'
 	];
 }
 
@@ -107,17 +101,17 @@ function formsSlides() {
 function auditToolsSlides() {
 	return [
 		'07-audit-tools/07-audit.md',
-		'07-audit-tools/07-tools.md',
+		'07-audit-tools/07-tools.md'
 	];
 }
 
 function conclusionSlides() {
 	return [
-		'08-conclusion/08-ressources.md',
-		'08-conclusion/08-conclusion.md',
 		'08-conclusion/08-TITLE.md',
 		'08-conclusion/08-misc.md',
 		'08-conclusion/08-misc-suite.md',
+		'08-conclusion/08-ressources.md',
+		'08-conclusion/08-conclusion.md',
 		'08-conclusion/08-homeworkshop.md'
 	];
 }

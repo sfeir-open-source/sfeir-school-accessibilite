@@ -1,4 +1,4 @@
-# Pour qui est-elle destinée ?
+# Pour qui est destinée l'accessibilité ?
 
 ![center h-550](../assets/images/stephaniewalter-arc-en-ciel-accessibilite.jpg)
 
@@ -10,8 +10,13 @@
 
 ##==##
 
+# Spectre détaillé
 
-# Quel est le besoin des personnes concernées ?
+![center h-700](./assets/images/types-handicap.jpeg)
+
+##==##
+
+# Déterminer le besoin des personnes concernées
 
 ![center h-500](../assets/images/stephaniewalter-accessibilite-design-innovation.jpg)
 

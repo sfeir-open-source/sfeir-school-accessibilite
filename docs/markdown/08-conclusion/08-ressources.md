@@ -1,12 +1,4 @@
-<!-- .slide: data-background="../assets/images/nejc-soklic-wO42Rmamef8-unsplash.jpg" class="transition bg-blue left" -->
-
-# Ressources
-
-## Pour aller plus loin
-
-##==##
-
-# Ressources
+# Ressources pour aller plus loin
 
 ## [Site et blog de Stephanie Walter](https://stephaniewalter.design/)
 

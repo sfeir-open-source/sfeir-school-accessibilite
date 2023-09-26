@@ -1,8 +1,6 @@
-<!-- .slide: data-background="../assets/images/philip-oroni-TGElBQvDINo-unsplash.jpg" class="transition bg-blue left" -->
+<!-- .slide: class="transition-bg-sfeir-2" -->
 
-# Audit
-
-## Ara et Wave
+# **Audit**
 
 ##==##
 

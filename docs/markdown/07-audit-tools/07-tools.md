@@ -1,8 +1,6 @@
-<!-- .slide: data-background="../assets/images/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg" class="transition bg-blue left" -->
+<!-- .slide: class="transition-bg-sfeir-2" -->
 
-# Outils
-
-## Pour vous aider dans le développement d'un site accessible
+# **Outils**
 
 ##==##
 

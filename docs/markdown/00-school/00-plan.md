@@ -2,8 +2,10 @@
 
 # Plan
 
-* L'accessibilité pour qui ? Quels sont les besoins ?
-* Critères RGAA Kézaco ? 
+* Description et chiffres sur l'accessibilité
+* ARIA
+* Erreurs communes
+* Critères RGAA 
 * Les images 
 * Les liens
 * Les couleurs et contrastes

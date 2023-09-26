@@ -1,12 +1,4 @@
-<!-- .slide: data-background="../assets/images/ben-kim-HeSAWmZ_tqw-unsplash.jpg" class="transition bg-blue left" -->
-
 # Critères RGAA
-
-## Kézaco ?
-
-##==##
-
-# Kézaco ?
 
 ![center h-500](../assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg)
 
@@ -55,14 +47,6 @@
 
 - Optimiser la compatibilité avec les utilisations acutelles et futures
 - S'intéresser aux technologies d'assistances
-
-##==##
-
-<!-- .slide: data-background="../assets/images/aaron-burden-iJv8EoAqrbE-unsplash.jpg" class="transition bg-blue left" -->
-
-# Critères RGAA
-
-## Présentation des thématiques
 
 ##==##
 
