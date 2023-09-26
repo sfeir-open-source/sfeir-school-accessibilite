@@ -1,8 +1,7 @@
-<!-- .slide: class="with-code-bg-dark" -->
-
-# Les labels
+<!-- .slide: class="quote-slide" -->
 
 > 11.1 Chaque champ de formulaire a-t-il une étiquette ?
+> [source]()
 
 Notes:
 Chaque champ de formulaire doit lié les inputs à leur label de façon pertinente

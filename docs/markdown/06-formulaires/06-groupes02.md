@@ -8,11 +8,11 @@
 	<div>
 		<label for="shipping_name">
       <span class="visuallyhidden">Shipping </span>Name:
-    </label><br>
+    </label>
 		<input type="text" name="shipping_name" id="shipping_name">
 	</div>
   <div>
-    <label for="shipping_street">Street:</label><br>
+    <label for="shipping_street">Street:</label>
     <input type="text" name="shipping_street" id="shipping_street">
   </div>
 	[…]

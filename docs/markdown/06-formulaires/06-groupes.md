@@ -3,8 +3,10 @@
 # Rassembler les informations
 
 > 11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?
+> [source]()
 
 > 11.6 Dans chaque formulaire, chaque regroupement de champs de même nature at-il une légende ?
+> [source]()
 
 Notes:
 https://www.w3.org/WAI/tutorials/forms/grouping/ pour d'autres exemples
