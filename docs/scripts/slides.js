@@ -32,11 +32,8 @@ function introSlides() {
 function imagesSlides() {
 	return [
 		'02-images/02-TITLE.md',
-		'02-images/02-alt.md',
+    '02-images/02-typologies.md',
 		'02-images/02-alt02.md',
-		'02-images/02-quand.md',
-		'02-images/02-decision-tree.md',
-		'02-images/02-volume.md',
 		'02-images/02-workshop.md',
 		'02-images/02-workshop02.md',
 		'02-images/02-correction.md'
@@ -65,8 +62,6 @@ function colorsSlides() {
 		'04-couleurs/04-contraste.md',
 		'04-couleurs/04-contraste02.md',
 		'04-couleurs/04-workshop.md',
-		'04-couleurs/04-correction.md',
-		'04-couleurs/04-correction02.md'
 	]
 }
 

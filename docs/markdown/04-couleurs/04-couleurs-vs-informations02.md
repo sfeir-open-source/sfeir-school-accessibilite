@@ -1,7 +1,6 @@
 <!-- .slide: class="with-code-bg-dark" -->
 
-# Couleurs != Informations
-
+# Navigation
 Compléter avec de l'information supplémentaire, par exemple: 
 - Visuellement => trait de couleur
 - DOM => aria-current

@@ -1,8 +1,7 @@
-<!-- .slide: class="with-code-bg-dark" -->
-
-# Couleurs != Informations
+<!-- .slide: class="quote-slide" -->
 
 > 3.1 Ne pas utiliser la couleur uniquement pour véhiculer de l'information. Ex: être sur une page avec une arborescence ou un fil d'ariane.
+> [source]()
 
 Notes: 
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current

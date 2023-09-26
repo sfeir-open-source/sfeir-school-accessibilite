@@ -9,18 +9,21 @@ Un input doit être lié à un label
 <label for="firstname">First name:</label>
 <input type="text" name="firstname" id="firstname">
 
+<label>
+  <span>First name:</span>
+  <input type="text" name="firstname">
+</label>
+
+
 // Cacher le label
 <label for="search" class="hide">Search: </label>
 <input type="text" name="search" id="search">
-<button type="submit">Search</button>
 
 // title
 <input title="Search" type="text" name="search">
-<button type="submit">Search</button>
 
 // aria-label
 <input type="text" name="search" aria-label="Search">
-<button type="submit">Search</button>
 
 // aria-labelledby
 <input type="text" name="search" aria-labelledby="searchbutton">
