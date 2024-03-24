@@ -1,3 +1,3 @@
 <!-- .slide: class="transition-bg-sfeir-2" -->
 
-# **Le focus**
+# **La navigation et le focus**

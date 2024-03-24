@@ -1,3 +1,7 @@
+.reveal section blockquote:before,
+.reveal section blockquote:after {
+  content: '';
+}
 
 
 /*# sourceMappingURL=slides.css.map */

@@ -15,43 +15,35 @@
         </div>
     </div>
     <div class="carousel">
-        <div class="card" id="teddy" tabindex="0">
-            <img src="../../img/teddy.jpg" alt="un ours brun en peluche">
-            <h3>Teddy</h3>
-            <h4>$10</h4>
-        </div>
-        <div class="card" id="simba" tabindex="0">
-            <img src="../../img/simba.jpg" alt="un lion en peluche">
-            <h3>Simba</h3>
-            <h4>$15</h4>
-        </div>
-        <div class="card" id="max" tabindex="0">
-            <img src="../../img/max.jpg" alt="un magnifique perroquet gris en peluche">
-            <h3>Max</h3>
-            <h4>$16</h4>
-        </div>
-        <div class="card" id="buggs" tabindex="0">
-            <img src="../../img/buggs.jpg" alt="un lapin en peluche au pelage blanc">
-            <h3>Buggs</h3>
-            <h4>$14</h4>
-        </div>
-        
-    </div>
-    
-    <div class="arrows">
-        <button id="arrow-left">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-                <path style="fill:#232326"
-                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                    data-name="Left" />
-            </svg>
+        <button id="left-arrow" class="disabled" onclick="moveCarouselLeft()">
+            &#8592;
         </button>
-        <button id="arrow-right">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-                <path style="fill:#232326"
-                    d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                    data-name="Right" />
-            </svg>
+        <div id="carousel-view">
+            <div id="card-container">
+                <div class="card" id="teddy">
+                    <img src="../../img/teddy.jpg" alt="un ours brun en peluche">
+                    <h3>Teddy</h3>
+                    <h4>$10</h4>
+                </div>
+                <div class="card" id="simba">
+                    <img src="../../img/simba.jpg" alt="un lion en peluche">
+                    <h3>Simba</h3>
+                    <h4>$15</h4>
+                </div>
+                <div class="card" id="max">
+                    <img src="../../img/max.jpg" alt="un magnifique perroquet gris en peluche">
+                    <h3>Max</h3>
+                    <h4>$16</h4>
+                </div>
+                <div class="card" id="buggs">
+                    <img src="../../img/buggs.jpg" alt="un lapin en peluche au pelage blanc">
+                    <h3>Buggs</h3>
+                    <h4>$14</h4>
+                </div>
+            </div>
+        </div>
+        <button id="right-arrow" onclick="moveCarouselRight()">
+            &#8594;
         </button>
     </div>
 

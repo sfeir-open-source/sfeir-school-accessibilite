@@ -1,8 +1,7 @@
-<!-- .slide: -->
-
-# La navigation et le focus:
+<!-- .slide: class="quote-slide" -->
 
 > 12.9 Dans chaque page web, la navigation ne doit pas contenir de piège au clavier.
+> [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#12.9)
 
 Notes:
 10.13 Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d'un composant d'interface sont-ils contrôlables par l'utilisateur (hors cas particuliers ) ?

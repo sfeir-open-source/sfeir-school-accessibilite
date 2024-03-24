@@ -2,12 +2,11 @@
 
 # Workshop 03
 
-Mettez des paillettes (et du contraste) dans nos vies ✨: 
 Objectif: rendre couleurs et contrastes accessibles
 
 TODO :
 - Lancer une analyse de la page
 - Corriger les contrastes identifiés
-- Vérifier que les contrastes entre composants sont suffisant
+- Vérifier que les contrastes entre composants sont suffisants
 
 Notes: 

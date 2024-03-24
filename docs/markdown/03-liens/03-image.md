@@ -1,25 +1,25 @@
-<!-- .slide: class="with-code-bg-dark" -->
+<!-- .slide: class="with-code" -->
 
 # Liens images
 
-Toujours mettre sur l'image un alt
+Le texte de remplacement de l'image doit permettre de connaître la destination du lien.
+
+<p style="text-align: center;">
+  <a href="https://theartofthebrickexpo.com/paris/" style="display: inline-block;">
+    <img src="./assets/images/art-of-the-brick.jpg" alt="Exposition art of the brick Paris" class="h-300">
+  </a>
+</p>
 
 ```
-<a href="salsifis.com">
-    <img src="../salsifis.png" alt="le site web des salsifis">
+<a href="https://theartofthebrickexpo.com/paris/">
+  <img src="./assets/images/art-of-the-brick.jpg" alt="Exposition art of the brick Paris">
 </a>
+```
 
-<a href="salsifis.com">
-  <span>repérez notre stand grâce à nos salsifis</span>
-  <img src="../salsifis.png" alt="" >
+```
+<a href="https://theartofthebrickexpo.com/paris/">
+  <img src="./assets/images/art-of-the-brick.jpg" alt="Personnage en LEGO jaunes qui s'ouvre le torse avec ses mains">
 </a>
-
-<img tabindex="0"
-     role="link"
-     onclick="goToLink(event, 'salsifis.com')"
-     onkeydown="goToLink(event, 'salsifis.com')"
-     src="../salsifis.png"
-     alt="le site web des salsifis">
 ```
 
 Notes:

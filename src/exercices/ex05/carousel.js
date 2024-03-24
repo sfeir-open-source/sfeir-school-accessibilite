@@ -1,18 +1,45 @@
-let arrowLeft = document.getElementById('arrow-left');
-let arrowRight = document.getElementById('arrow-right');
-let cards = document.getElementsByClassName('card');
-let currentIndex = 0;
+const carouselView = document.getElementById('carousel-view');
+const cardContainer = document.getElementById('card-container');
+const numberOfCard = document.getElementById('carousel-view').getElementsByClassName('card').length;
+const cardWidth = document.getElementById('carousel-view').getElementsByClassName('card')[0].getBoundingClientRect().width;
+const totalCardWidth = cardWidth * numberOfCard + (20 * (numberOfCard - 2));
+const leftArrow = document.getElementById('left-arrow');
+const rightArrow = document.getElementById('right-arrow');
 
-arrowLeft.addEventListener('click', function() {
-    if (currentIndex >= 0) {
-        cards[currentIndex]?.focus();
-        if(currentIndex != 0)currentIndex--;
-    }
-});
+function moveCarouselLeft() {
+    if (!leftArrow.classList.contains('disabled')) {
+        const leftValue = this.getLeftValue();
+        const newPosition = leftValue + cardWidth;
 
-arrowRight.addEventListener('click', function() {
-    if (currentIndex <= 3) {
-        cards[currentIndex]?.focus();
-        if(currentIndex != 3)currentIndex++;
+        document.documentElement.style.setProperty('--carousel-left', `${newPosition}px`);
+
+        if (newPosition === 0) {
+            leftArrow.classList.add('disabled')
+        }
+        if (rightArrow.classList.contains('disabled')) {
+            rightArrow.classList.remove('disabled');
+        }
     }
-});
+}
+
+function moveCarouselRight() {
+    if (!rightArrow.classList.contains('disabled')) {
+        const leftValue = this.getLeftValue();
+        const newPosition = leftValue - cardWidth;
+
+        document.documentElement.style.setProperty('--carousel-left', `${newPosition}px`);
+
+        if (totalCardWidth - (carouselView.getBoundingClientRect().width - newPosition) < cardWidth) {
+            rightArrow.classList.add('disabled')
+        }
+        if (leftArrow.classList.contains('disabled')) {
+            leftArrow.classList.remove('disabled');
+        }
+    }
+}
+
+
+function getLeftValue() {
+    const carouselLeftProperty = getComputedStyle(document.body).getPropertyValue('--carousel-left')
+    return Number(carouselLeftProperty.replace('px', ''))
+}

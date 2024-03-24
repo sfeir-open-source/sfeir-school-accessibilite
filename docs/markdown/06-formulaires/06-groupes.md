@@ -1,10 +1,14 @@
-<!-- .slide: class="with-code-bg-dark" -->
-
-# Rassembler les informations
+<!-- .slide: class="quote-slide" -->
 
 > 11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?
+> [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.5)
 
-> 11.6 Dans chaque formulaire, chaque regroupement de champs de même nature at-il une légende ?
+<blockquote style="margin-top: 100px">
+  11.6 Dans chaque formulaire, chaque regroupement de champs de même nature a t-il une légende ?
+  <cite>
+    <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.6">source</a>
+  </cite>
+</blockquote>
 
 Notes:
 https://www.w3.org/WAI/tutorials/forms/grouping/ pour d'autres exemples
