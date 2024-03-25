@@ -1,8 +1,15 @@
 <!-- .slide: class="with-code-bg-dark" -->
+<!-- .slide: class="quote-slide" -->
 
-# Qu’est-ce que le handicap?
+## Qu’est-ce que le handicap?
 
-> Le handicap est une situation personnelle, temporaire ou définitive, rendant difficile ou impossible l’interaction avec la société et ses installations. 
+<blockquote style="font-weight: lighter">
+  <p>
+    &laquo; Constitue un handicap, au sens de la présente loi, toute <strong>limitation d'activité ou restriction</strong> de participation à la vie en société subie dans son environnement par une personne en raison d'une <strong>altération</strong> substantielle, durable ou définitive d'une ou plusieurs fonctions physiques, sensorielles, mentales, cognitives ou psychiques, d'un polyhandicap ou d'un trouble de santé invalidant. &raquo;
+  <p>
+  <figcaption>
+    <a href='https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006796446/'>Article L114 du code de l'action sociale des familles</a>
+  </figcaption>
+</blockquote>
 
-Notes:
-https://agriculture.gouv.fr/laccessibilite-web-un-acces-tout-et-pour-tous#:~:text=Selon%20Tim%20Berners%2DLee%2C%20fondateur,leur%20localisation%20g%C3%A9ographique%2C%20ou%20leurs
+

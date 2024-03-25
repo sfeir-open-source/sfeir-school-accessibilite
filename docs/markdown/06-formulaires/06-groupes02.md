@@ -1,38 +1,36 @@
-<!-- .slide: class="two-column with-code-bg-dark" -->
+<!-- .slide: class="with-code" -->
 
-## HTML
+## Rassembler les informations avec `<fieldset>`
 
 ```
 <fieldset>
-	<legend>Shipping Address:</legend>
-	<div>
-		<label for="shipping_name">
-      <span class="visuallyhidden">Shipping </span>Name:
-    </label><br>
-		<input type="text" name="shipping_name" id="shipping_name">
-	</div>
+  <legend>Shipping Address:</legend>
   <div>
-    <label for="shipping_street">Street:</label><br>
+    <label for="shipping_name">Name:</label>
+    <input type="text" name="shipping_name" id="shipping_name">
+  </div>
+  <div>
+    <label for="shipping_street">Street:</label>
     <input type="text" name="shipping_street" id="shipping_street">
   </div>
-	[…]
+  […]
 </fieldset>
 ```
 
-##--##
+##==##
 
-## ARIA
+<!-- .slide: class="with-code" -->
+
+## Rassembler les informations avec ARIA
 
 ```
 <div role="group" aria-labelledby="shipping_head">
-	<div id="shipping_head">Shipping Address:</div>
-	<div>
-		<label for="shipping_name">
-      <span class="visuallyhidden">Shipping </span>Name:
-    </label><br>
-		<input type="text" name="shipping_name" id="shipping_name">
-	</div>
-	[…]
+  <div id="shipping_head">Shipping Address:</div>
+  <div>
+    <label for="shipping_name">Name:</label>
+    <input type="text" name="shipping_name" id="shipping_name">
+  </div>
+  […]
 </div>
 ```
 

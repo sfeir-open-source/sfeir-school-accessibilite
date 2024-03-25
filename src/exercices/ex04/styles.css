@@ -1,6 +1,10 @@
 /**
 * Global
 **/
+:root {
+    --carousel-left : 0px
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ffb6c1;
@@ -55,8 +59,38 @@ body {
     margin: 0;
     text-align: center;
 }
+
+#carousel-view {
+    max-width: 80%;
+    flex: 1;
+    overflow: hidden;
+}
+
+#card-container {
+    display: flex;
+    transform: translateX(var(--carousel-left));
+}
+
+#left-arrow,
+#right-arrow {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+#left-arrow:not(.disabled),
+#right-arrow:not(.disabled) {
+    cursor: pointer;
+}
+
+#left-arrow.disabled,
+#right-arrow.disabled {
+    opacity: 0.5;
+}
+
 .card {
-    max-width: 20%;
+    min-width: 50%;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -68,10 +102,6 @@ body {
 
 .selected {
     color: #000000;
-}
-.card:not(.selected) {
-    opacity: 0.5;
-    width: 50%;
 }
 
 .atelier {

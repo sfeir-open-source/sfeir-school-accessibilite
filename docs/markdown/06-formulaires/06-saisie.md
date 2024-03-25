@@ -3,8 +3,10 @@
 # Pertinence de l'information
 
 > 11.10 Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?
+> [source]()
 
 > 11.11 Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?
+> [source]()
 
 Notes:
 De manière évidente un formulaire ou autres éléments interactifs si mal compris, vont être mal utilisés.

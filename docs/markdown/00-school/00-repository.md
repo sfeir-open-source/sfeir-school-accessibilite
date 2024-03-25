@@ -6,7 +6,7 @@
 
 https://github.com/sfeir-open-source/sfeir-school-accessibilite
 
+<img src="./assets/images/qr-repo.png" alt="" class="center h-500"/>
+
 <br>
 
-Notes: 
-Pauline

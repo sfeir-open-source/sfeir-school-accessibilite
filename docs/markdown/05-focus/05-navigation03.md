@@ -1,12 +1,19 @@
+<!-- .slide: class="quote-slide" -->
+
+> 10.13 Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
+> [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#10.13)
+
+##==##
+
 <!-- .slide: -->
 
-# La navigation et le focus:
+# Cas particuliers du critère 10.13
 
-## Cas spécifique de la modal
-
-* Il faut piéger le focus
-* Elle doit être fermable au clavier
-> 10.13 Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d'un composant d'interface sont-ils contrôlables par l'utilisateur (hors cas particuliers ) ?
+* Les contenus contrôlés par l'agent utilisateur (ex: le navigateur)
+  * L'attribut `title`
+* Les modales
+  * Le focus ne doit pas sortir de la modale
+  * La modale doit pouvoir être fermée avec la touche `Echap`
 
 Notes:
 
