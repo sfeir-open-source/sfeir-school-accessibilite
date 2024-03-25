@@ -3,7 +3,7 @@
 # Trainer
 
 ![speaker](./assets/images/speaker-fanny.jpeg)
-![company](./assets/images/logo-SFEIR-blanc.png)
+![company](./assets/images/logo-sfeir-blanc.png)
 
 <h2>Fanny <span>Weisenburger</span></h2>
 
