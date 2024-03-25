@@ -1,6 +1,6 @@
 # WCAG
 
-![center h-500](../assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg)
+![center h-500](./assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg)
 
 - Web Content Accessibility Guidelines
 
@@ -14,7 +14,7 @@
 
 # Perceivable - Perceptible
 
-![center h-500](../assets/images/perceivable.jpeg)
+![center h-500](./assets/images/perceivable.jpeg)
 
 - Faciliter la perception visuelle et auditive du contenu
 - Proposer des équivalents textuels
@@ -24,7 +24,7 @@
 
 # Operable - Utilisable
 
-![center h-500](../assets/images/operable.jpeg)
+![center h-500](./assets/images/operable.jpeg)
 
 - Fournir des éléments d'orientation pour naviguer et trouver le contenu
 - Accessibilité via clavier
@@ -35,7 +35,7 @@
 
 # Understandable - Compréhensible
 
-![center h-500](../assets/images/understandable.jpeg)
+![center h-500](./assets/images/understandable.jpeg)
 
 - Les pages doivent fonctionner de manière prévisible
 - Correction de saisie
@@ -45,14 +45,14 @@
 
 # Robust - Robuste
 
-![center h-500](../assets/images/robust.jpeg)
+![center h-500](./assets/images/robust.jpeg)
 
 - Optimiser la compatibilité avec les utilisations acutelles et futures
 - S'intéresser aux technologies d'assistances
 
 ##==##
 
-![float-left h-1000](../assets/images/rgaa.png)
+![float-left h-1000](./assets/images/rgaa.png)
 
 # RGAA
 
