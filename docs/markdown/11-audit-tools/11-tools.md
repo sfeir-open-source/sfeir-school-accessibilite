@@ -1,8 +1,4 @@
-<!-- .slide: class="transition-bg-sfeir-2" -->
-
-# **Outils**
-
-##==##
+<!-- .slide: class="" -->
 
 # Sélection d'outils disponibles
 

@@ -1,6 +1,6 @@
 <!-- .slide: class="exercice small" -->
 
-# Correction 05
+# Correction 07
 
 * Input = label
 * Penser à regrouper que si c'est pertinent

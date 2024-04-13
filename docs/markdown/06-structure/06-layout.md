@@ -9,6 +9,13 @@
   - Contenu principal
   - Pied de page du site
 
+##==##
+
+
+## Exemple
+
+<!-- .slide: class="width-code" -->
+
 ⚠ Toutes les régions, sauf la navigation, doivent être uniques dans la page.
 
 ```
@@ -57,8 +64,16 @@
 - Pas de texte uniquement dans des `<div>` ou des `<span>` ou autre élément dépourvu de sémantique.
 
 - `<br>` sert à créer un saut de ligne dans un bloc de texte.
-⚠ Il ne **doit pas** être utilisé pour ajouter des marges entre des paragraphes ou pour ajouter de l'espace dans un paragraphe.
+  - ⚠ Il ne **doit pas** être utilisé pour ajouter des marges entre des paragraphes ou pour ajouter de l'espace dans un paragraphe.
 
+
+
+##==##
+
+
+## Exemple
+
+<!-- .slide: class="width-code" -->
 
 ```
 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
@@ -66,6 +81,13 @@
 ```
 
 <p style="margin: 20px 96px">❌ <strong>Non valide :</strong> Les textes ne sont contenus dans aucun élément sémantique</p>
+
+##==##
+
+
+## Exemple
+
+<!-- .slide: class="width-code" -->
 
 ```
 <p>
@@ -76,6 +98,14 @@
 <p style="margin: 20px 96px">
 ❌ <strong>Non valide :</strong> Utilisation inappropriée de <code>br</code> pour créer des espacements au lieu d'utiliser plusieurs paragraphes.
 </p>
+
+
+##==##
+
+
+## Exemple
+
+<!-- .slide: class="width-code" -->
 
 ```
   <p>Du texte</p>
