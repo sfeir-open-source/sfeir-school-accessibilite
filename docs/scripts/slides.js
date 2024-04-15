@@ -136,6 +136,7 @@ function auditToolsSlides() {
 
 function conclusionSlides() {
   return [
+    '12-conclusion/12-recapbis.md',
     '12-conclusion/12-TITLE.md',
     '12-conclusion/12-misc.md',
     '12-conclusion/12-ressources.md',
