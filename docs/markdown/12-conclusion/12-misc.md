@@ -11,3 +11,17 @@
 * La consultation 
 
 Notes:
+
+##==##
+
+<!-- .slide: -->
+
+# Que reste-t-il ?
+
+## A voir:
+
+* Les cadres
+* Le multimedia
+* Les éléments obligatoires
+
+Notes:

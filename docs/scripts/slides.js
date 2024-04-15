@@ -93,7 +93,7 @@ function structureSlides() {
 }
 
 function recapSlides() {
-  return ['07-recap/07-TITLE.md'];
+  return ['07-recap/07-TITLE.md', '07-recap/07-recap.md'];
 }
 
 function formsSlides() {
@@ -111,11 +111,17 @@ function formsSlides() {
 }
 
 function tabsSlides() {
-  return ['09-tableaux/09-TITLE.md', '09-tableaux/09-tabs.md', '09-tableaux/09-workshop.md', '09-tableaux/09-correction.md'];
+  return ['09-tableaux/09-TITLE.md',
+    '09-tableaux/09-tabs.md',
+    '09-tableaux/09-simple.md',
+    '09-tableaux/09-complexe.md',
+    '09-tableaux/09-correction.md',
+    '09-tableaux/09-workshop.md'
+  ];
 }
 
 function ciSlides() {
-  return ['10-ci/10-TITLE.md', '10-ci/10-workshop.md', '10-ci/10-correction.md'];
+  return ['10-ci/10-TITLE.md', '10-ci/10-ci.md', '10-ci/10-evangelisation.md'];
 }
 
 function auditToolsSlides() {
@@ -132,7 +138,6 @@ function conclusionSlides() {
   return [
     '12-conclusion/12-TITLE.md',
     '12-conclusion/12-misc.md',
-    '12-conclusion/12-misc-suite.md',
     '12-conclusion/12-ressources.md',
     '12-conclusion/12-conclusion.md',
     '12-conclusion/12-homeworkshop.md',
