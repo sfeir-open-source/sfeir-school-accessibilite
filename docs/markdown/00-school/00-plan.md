@@ -22,6 +22,6 @@
 * Les formulaires
 * Les tableaux
 * Pour aller plus loin
-* Petite revue de tout ce qu'il reste 💪
 * Faire un audit
+* Petite revue de tout ce qu'il reste 💪
 * Conclusion

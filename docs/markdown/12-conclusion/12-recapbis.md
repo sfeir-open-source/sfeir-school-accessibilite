@@ -32,4 +32,3 @@
 
 * ARA pour auditer via les RGAA
 * La déclaration d'accessibilité, compte-rendu de l'état de votre site
-

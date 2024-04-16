@@ -2,9 +2,8 @@
 
 # Correction 07
 
-* Input = label
-* Penser à regrouper que si c'est pertinent
-* Le texte du bouton doit être contextualisé
-* Contrôles et erreurs pertinentes
+* Formaliser le tableau simple
+* Rajouter les attributs correct pour le tableau complexe
+* Enlever le ``<table>`` pour le style
 
 Notes:
