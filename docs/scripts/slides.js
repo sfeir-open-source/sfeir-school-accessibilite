@@ -115,8 +115,8 @@ function tabsSlides() {
     '09-tableaux/09-tabs.md',
     '09-tableaux/09-simple.md',
     '09-tableaux/09-complexe.md',
+    '09-tableaux/09-workshop.md',
     '09-tableaux/09-correction.md',
-    '09-tableaux/09-workshop.md'
   ];
 }
 

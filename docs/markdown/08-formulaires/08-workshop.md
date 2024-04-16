@@ -7,8 +7,8 @@ Des labels bien nommés, bien groupés, vous savez ce qui vous attend 🏷️ :
 Objectif: Rendre accessible le formulaire de création de compte
 
 TODO :
-- Labeliser les inputs pertinement
-- Regroupez les informations
+- Labeliser les inputs pertinemment
+- Regrouper les informations
 - Bonus: Assurez et clarifiez au mieux les contrôles du formulaire
 
 

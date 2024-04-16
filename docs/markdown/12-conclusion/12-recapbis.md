@@ -19,7 +19,7 @@
 # Tableaux
 
 * Chaque tableau de données complexe a-t-il un résumé ?
-* Jamais utiliser ``<table>`` pour du style
+* Ne jamais utiliser ``<table>`` pour du style
 * role="presentation"
 * Tableau simple
 * Tableau complexe

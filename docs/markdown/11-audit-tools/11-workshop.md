@@ -8,8 +8,8 @@ Objectif: Faire un petit audit à l'aide d'ARA
 
 TODO :
 - Trouver votre site à auditer (public ou perso)
-- Sélectionnez les pages que vous voulez auditere
-- Auditez
+- Sélectionnez les pages que vous voulez auditer
+- Auditer
 
 Notes: 
 

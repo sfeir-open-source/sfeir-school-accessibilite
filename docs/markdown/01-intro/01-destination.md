@@ -18,8 +18,6 @@
 
 # Déterminer le besoin des personnes concernées
 
-![center h-500](./assets/images/stephaniewalter-accessibilite-design-innovation.jpg)
-
 - Composante fondamentale du design, compatible avec l'innovation
 
 - Moins chère si prise en compte dès le début

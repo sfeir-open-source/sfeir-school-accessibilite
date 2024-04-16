@@ -9,7 +9,7 @@
 * Les images
 * Les liens
 * Les couleurs et contrastes
-* Le focus et les interactions claviers
+* Le focus et les interactions clavier
 * La structure
 
 ##==##

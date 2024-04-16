@@ -4,7 +4,7 @@
 
 Corrige ponctuellement la tabulation 
 
-Cet attribut html accepte trois type de valeur :
+Cet attribut html accepte trois types de valeurs :
 * **0** : l'élément est tabulable
 * **-1** : l'élément n'est pas tabulable
 * **1 et plus** : A NE SURTOUT PAS UTILISER

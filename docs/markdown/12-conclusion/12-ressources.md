@@ -12,6 +12,8 @@
 
 ## [Access42](https://access42.net/)
 
+## [Blog de Julie Monat](https://www.lalutineduweb.fr/theme/accessibilite/)
+
 ## Images libres de droit : Unsplash
 
 ## Illustrations : Stephanie Walter & Marie Guillaumet

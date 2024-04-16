@@ -27,7 +27,7 @@
 # Liens
 
 * Lien texte
-* Lien images
+* Lien image
 * Lien composite avec image informative
 * Lien composite avec image décorative
 * Lien vide

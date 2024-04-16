@@ -9,7 +9,7 @@
 
 ## Les images porteuses d'information
 
-> « Une image est porteuse d'information si elle est necessaire à la compréhension. Lorsqu'on la retire, on perd de l'information. »
+> « Une image est porteuse d'information si elle est nécessaire à la compréhension. Lorsqu'on la retire, on perd de l'information. »
 
 <a href="https://www.w3.org/WAI/tutorials/images/informative/">Informative images - WCAG</a>
 
@@ -95,7 +95,7 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-
 
 ##==##
 
-## Images maps
+## Les images maps
 
 ![center h-700](./assets/images/image-maps.png)
 

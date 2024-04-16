@@ -7,7 +7,7 @@
 
 <!-- .slide: -->
 # Les contrastes
-Les contrastes peuvent varier en fonction de la taille du texte et de si il est en gras
+Les contrastes peuvent varier en fonction de la taille du texte et de son affichage en gras ou non
 
 - Contrast 4.5:1
   - < 24px

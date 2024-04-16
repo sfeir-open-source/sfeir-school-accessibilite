@@ -47,8 +47,8 @@
 
 ![center h-500](./assets/images/robust.jpeg)
 
-- Optimiser la compatibilité avec les utilisations acutelles et futures
-- S'intéresser aux technologies d'assistances
+- Optimiser la compatibilité avec les utilisations actuelles et futures
+- S'intéresser aux technologies d'assistance
 
 ##==##
 

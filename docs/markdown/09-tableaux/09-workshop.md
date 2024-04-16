@@ -4,12 +4,12 @@
 
 Les tableaux 🖼️ : 
 
-Objectif: Rendre les lisibles les différents tableaux
+Objectif: Rendre lisibles les différents tableaux
 
 TODO :
-- Labeliser les inputs pertinement
-- Regroupez les informations
-- Bonus: Assurez et clarifiez au mieux les contrôles du formulaire
+- Labeliser les inputs pertinemment
+- Regrouper les informations
+- Bonus: Assurer et clarifier au mieux les contrôles du formulaire
 
 
 Notes: 

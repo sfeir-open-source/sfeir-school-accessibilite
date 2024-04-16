@@ -205,3 +205,19 @@ input[type="radio"] {
     background-color: #ff69b4;
     color: #000000;
 }
+
+/**
+* About us
+**/
+table {
+  padding: 1rem;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+}
