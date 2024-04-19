@@ -29,6 +29,13 @@ body {
     white-space: nowrap !important;
     border: 0 !important;
 }
+.navbar-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display:inline;
+  font-size:1em;
+  font-weight:normal;
+}
 
 /**
 * Homepage
