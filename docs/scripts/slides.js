@@ -96,6 +96,10 @@ function recapSlides() {
   return ['07-recap/07-TITLE.md', '07-recap/07-recap.md'];
 }
 
+function bonusSlides() {
+  return ['07-bis-bonus-round/07-bis-TITLE.md', '07-bis-bonus-round/07-bis-bonus.md'];
+}
+
 function formsSlides() {
   return [
     '08-formulaires/08-TITLE.md',
@@ -115,6 +119,7 @@ function tabsSlides() {
     '09-tableaux/09-tabs.md',
     '09-tableaux/09-simple.md',
     '09-tableaux/09-complexe.md',
+    '09-tableaux/09-presentation.md',
     '09-tableaux/09-workshop.md',
     '09-tableaux/09-correction.md',
   ];
@@ -145,6 +150,11 @@ function conclusionSlides() {
   ];
 }
 
+
+function bonusBisSlides() {
+  return ['12-bis-bonus-round/12-bis-TITLE.md', '12-bis-bonus-round/12-bis-bonus.md'];
+}
+
 function formation() {
   return [
     ...schoolSlides(),
@@ -155,11 +165,13 @@ function formation() {
     ...focusSlides(),
     ...structureSlides(),
     ...recapSlides(),
+    ...bonusSlides(),
     ...formsSlides(),
     ...tabsSlides(),
     ...ciSlides(),
     ...auditToolsSlides(),
     ...conclusionSlides(),
+    ...bonusBisSlides(),
   ].map((slidePath) => {
     return { path: slidePath };
   });
