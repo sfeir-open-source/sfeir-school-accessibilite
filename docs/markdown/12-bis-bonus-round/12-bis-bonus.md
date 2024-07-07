@@ -42,7 +42,7 @@
 * Pertinence des contenus cachés (10.9)
 * Pas d'information uniquement par la forme, la taille ou la position (10.9 & 10.10)
 * Pouvoir garder les infos même à très petite taille d'écran (10.11)
-* L'espacement entre les lettre possible (10.12)
+* L'espacement entre les lettres possible (10.12)
 * Tooltip et autres contenus additionnels controlâbles (10.13 & 10.14)
 
 ##==##
@@ -64,8 +64,8 @@
 # 12: La navigation
 
 * Les liens d'évitements (12.7)
-* Ordre de tabulation cohérent / sans piège de clavier (12.8 & 12.9)
-* Les raccourcis clavier controlâble (12.10)
+* Ordre de tabulation cohérent / sans pièges de clavier (12.8 & 12.9)
+* Les raccourcis clavier controlâbles (12.10)
 * Tooltip et autres contenus additionnels atteignables (12.11)
 
 ##==##
@@ -76,7 +76,7 @@
 
 * Le contrôle de chaque limite de temps, les sessions par exemple (13.1)
 * Pas de fenêtres intempestives (13.2)
-* Les documents téléchargeable sont accessibles (13.3 & 13.4)
+* Les documents téléchargeables sont accessibles (13.3 & 13.4)
 * Les contenus cryptiques (13.5 & 13.6)
 * Pas de changement brusque de luminosité ou de flash (13.7)
 
