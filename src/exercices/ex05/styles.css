@@ -2,206 +2,244 @@
 * Global
 **/
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffb6c1;
+  font-family: Arial, sans-serif;
+  background-color: #ffb6c1;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 15px;
-    color: #000000;
-    font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 15px;
+  color: #000000;
+  font-size: 20px;
 }
 .navbar a {
-    text-decoration: none;
-    color: #000000;
-    margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
 }
 .visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 /**
 * Homepage
 **/
 .carousel {
-    display: flex;
-    overflow-x: none;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white;
+  display: flex;
+  overflow-x: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
 }
 .carousel img {
-    margin-right: 10px;
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 .carousel div {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .carousel h3,
 .carousel h4 {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 #carousel-view {
-    max-width: 80%;
-    flex: 1;
-    overflow: hidden;
+  max-width: 80%;
+  flex: 1;
+  overflow: hidden;
 }
 
 #card-container {
-    display: flex;
-    transform: translateX(var(--carousel-left));
+  display: flex;
+  transform: translateX(var(--carousel-left));
 }
 
 #left-arrow,
 #right-arrow {
-    align-self: stretch;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    border: none;
-    background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
 }
 
 #left-arrow:not(.disabled):hover,
 #right-arrow:not(.disabled):hover {
-    background-color: #F0F0F0;
-    box-shadow: 0px 0px 0px 1px #a7a7a7;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 0px 1px #a7a7a7;
 }
 
 #left-arrow:not(.disabled),
 #right-arrow:not(.disabled) {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #left-arrow.disabled,
 #right-arrow.disabled {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .card {
-    min-width: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .card:focus {
-    color: #000000;
+  color: #000000;
 }
 .card:not(:focus) {
-    opacity: 0.5;
-    width: 50%;
+  opacity: 0.5;
+  width: 50%;
 }
 
 .atelier {
-    padding: 50px;
+  padding: 50px;
 }
 
 #photo-atelier {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bye {
-    padding: 50px;
+  padding: 50px;
 }
 
 #photo-bye {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-button {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 .infos {
-    font-size: 35px;
-    padding: 20px;
-    color: #000000;
-    background-color: #f0f0f0;
+  font-size: 35px;
+  padding: 20px;
+  color: #000000;
+  background-color: #f0f0f0;
 }
 
 .arrows {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-    width: 100%;
-    height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
 }
 #arrow-left {
-    float: left;
-    width: 40px;
-    height: 40px;
+  float: left;
+  width: 40px;
+  height: 40px;
 }
 #arrow-right {
-    float: right;
-    width: 40px;
-    height: 40px;
+  float: right;
+  width: 40px;
+  height: 40px;
 }
 
 /**
 * Account
 **/
 form {
-    margin: 20px;
+  margin: 20px;
 }
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
-input[type="text"],
-input[type="email"] {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+input[type='text'],
+input[type='email'] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-input[type="radio"] {
-    margin-right: 5px;
+input[type='radio'] {
+  margin-right: 5px;
 }
 
 .submit-btn {
-    padding: 12px 30px;
-    border-radius: 25px;
-    background-color: #ffb6c1;
-    color: #000000;
-    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.3);
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 12px 30px;
+  border-radius: 25px;
+  background-color: #ffb6c1;
+  color: #000000;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
-    background-color: #ff69b4;
-    color: #000000;
+  background-color: #ff69b4;
+  color: #000000;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

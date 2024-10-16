@@ -10,6 +10,7 @@
 
 * Lier labels et inputs
 * Regrouper les champs de même nature
+* Les contrôles doivent être précisés
 * L'intitulé de chaque bouton est-il pertinent ?
 
 ##==##

@@ -7,9 +7,9 @@ Les tableaux 🖼️ :
 Objectif: Rendre lisibles les différents tableaux
 
 TODO :
-- Labeliser les inputs pertinemment
-- Regrouper les informations
-- Bonus: Assurer et clarifier au mieux les contrôles du formulaire
+- Aller dans la page "About Us"
+- Retirer le tableau de présentation
+- Corriger le tableau simple et complexe
 
 
 Notes: 

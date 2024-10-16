@@ -2,10 +2,6 @@
 
 # Que reste-t-il ?
 
-<!-- .slide: -->
-
-# Que reste-t-il ?
-
 ## A voir (Bonus 1):
 
 * Les cadres
