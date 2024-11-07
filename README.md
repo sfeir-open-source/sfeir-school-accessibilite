@@ -14,7 +14,7 @@ You can view the slides [here](https://sfeir-open-source.github.io/sfeir-school-
 
 ## Develop
 
-To run docs locally, go in directory `docs`, install dependencies using npm and run `npm run start`, then open slides on http://localhost:3000/.
+To run docs locally, open your favorite terminal, go in directory `docs`, install dependencies using npm and run `npm run start`, then open slides on http://localhost:4242/.
 
 ## Workshop
 
