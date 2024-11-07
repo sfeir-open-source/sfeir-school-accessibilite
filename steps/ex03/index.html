@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HuggableBuddies</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div>Huggable Buddies</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="account.html">Account</a>
+        </div>
+    </div>
+    <div class="carousel">
+        <div id="left-arrow" class="disabled" onclick="moveCarouselLeft()">
+            &#8592;
+        </div>
+        <div id="carousel-view">
+            <div id="card-container">
+                <div class="card" id="teddy">
+                    <img src="../assets/teddy.jpg" alt="un ours brun en peluche">
+                    <h3>Teddy</h3>
+                    <h4>$10</h4>
+                </div>
+                <div class="card" id="simba">
+                    <img src="../assets/simba.jpg" alt="un lion en peluche">
+                    <h3>Simba</h3>
+                    <h4>$15</h4>
+                </div>
+                <div class="card" id="max">
+                    <img src="../assets/max.jpg" alt="un magnifique perroquet gris en peluche">
+                    <h3>Max</h3>
+                    <h4>$16</h4>
+                </div>
+                <div class="card" id="buggs">
+                    <img src="../assets/buggs.jpg" alt="un lapin en peluche au pelage blanc">
+                    <h3>Buggs</h3>
+                    <h4>$14</h4>
+                </div>
+            </div>
+        </div>
+        <div id="right-arrow" onclick="moveCarouselRight()">
+            &#8594;
+        </div>
+    </div>
+
+    <h1 class="visually-hidden">Venez visiter notre magasin et découvrez notre passion dévorante pour la peluche. De toutes les tailles et pour tous les âges. Vous pourrez même customiser votre peluche.</h1>
+    <a class="atelier" href="https://goo.gl/maps/c87yWYBZcbkhZoqYA" tabindex="1">
+        <img id="photo-atelier" src="../assets/atelier-texte.jpg" alt="Redirection vers l'addresse du magasin. Voir titres pour le texte sur l'image">
+    </a>
+
+    <div class="custom-button">
+        <div role="button" class="submit-btn">Personnalisez votre peluche</div>
+    </div>
+
+    <div class="infos">
+        Ouvert :
+        <div>
+            <svg aria-hidden="true" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+            </svg> Du mardi au samedi
+        </div>
+
+        <div>
+            <svg aria-hidden="true" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+            </svg> De 10h à 19h
+        </div>
+        <div>
+            <svg aria-hidden="true" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+            </svg> Cliquez <a aria-label="Redirection vers l'addresse du magasin" href="https://goo.gl/maps/c87yWYBZcbkhZoqYA">ici</a> pour voir sur la carte où se trouve le magasin
+        </div>
+    </div>
+
+    <div class="infos bye">
+        <span style="text-align: center;">A bientôt:</span>
+        <img id="photo-bye" src="../assets/waving.jpg" alt="">
+    </div>
+
+    <script type="text/javascript" src="./carousel.js"></script>
+</body>
+
+</html>

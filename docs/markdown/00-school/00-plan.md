@@ -1,18 +1,27 @@
 <!-- .slide: -->
 
-# Plan
+# Plan Jour 1
 
 * Description et chiffres sur l'accessibilité
 * ARIA
 * Erreurs communes
 * Critères RGAA
-* La structure
 * Les images
 * Les liens
 * Les couleurs et contrastes
-* Le focus et les interactions claviers
-* Les formulaires
-* Audit & Outils
-* Ressources
-* Et pour finir petite revue de tout ce qu'il reste 💪 (beaucoup de choses)
+* Le focus et les interactions clavier
+* La structure
 
+##==##
+
+<!-- .slide: -->
+
+# Plan Jour 2
+
+* Récap de la veille
+* Les formulaires
+* Les tableaux
+* Pour aller plus loin
+* Faire un audit
+* Petite revue de tout ce qu'il reste 💪
+* Conclusion

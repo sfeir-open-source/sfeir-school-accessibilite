@@ -9,7 +9,7 @@
 
 * Accessible Rich Internet Application
 
-* Les rôles : donne une sémantique à un élément (role=”button”)
+* Les rôles : donnent une sémantique à un élément (role=”button”)
 * Les propriétés : Informations statiques supplémentaires (required, label, etc.)
 * Les états : Informations amenées à évoluer (aria-pressed)
 

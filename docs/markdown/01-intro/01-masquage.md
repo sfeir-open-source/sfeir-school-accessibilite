@@ -3,7 +3,7 @@
 # Le masquage accessible
 
 * Le but est simple: enrichir la page de contenus textuels qui seront visuellement cachés
-* Ne doit pas être utiliser pour alourdir vocalement la page
+* Ne doit pas être utilisé pour alourdir vocalement la page
 * Peut servir dans un cas d'information visuellement non transmissible par le lecteur d'écran
 
 ```

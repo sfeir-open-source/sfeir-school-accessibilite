@@ -3,7 +3,7 @@
 # Présentation
 
 ![speaker blue](./assets/images/speaker-pierre.jfif)
-![badge first-badge](./assets/images/js-logo.png)
+![badge first-badge](./assets/images/vue-logo.png)
 ![badge second-badge](./assets/images/angular-logo.png)
 ![badge third-badge](./assets/images/svelte-logo.png)
 ![company](./assets/images/logo-SFEIR-blanc.png)
