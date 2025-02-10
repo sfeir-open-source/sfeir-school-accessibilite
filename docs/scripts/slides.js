@@ -23,6 +23,7 @@ function introSlides() {
     '01-intro/01-handicap.md',
     '01-intro/01-chiffres.md',
     '01-intro/01-timeline.md',
+    '01-intro/01-legal.md',
     '01-intro/01-erreurs.md',
     '01-intro/01-rgaa.md',
     '01-intro/01-aria.md',
@@ -37,6 +38,7 @@ function imagesSlides() {
     '02-images/02-TITLE.md',
     '02-images/02-typologies.md',
     '02-images/02-alt02.md',
+    '02-images/02-voiceover.md',
     '02-images/02-workshop.md',
     '02-images/02-workshop02.md',
     '02-images/02-correction.md',
@@ -87,6 +89,7 @@ function structureSlides() {
   return [
     '06-structure/06-TITLE.md',
     '06-structure/06-layout.md',
+    '06-structure/06-w3c-validator.md',
     '06-structure/06-workshop.md',
     '06-structure/06-correction.md',
   ];

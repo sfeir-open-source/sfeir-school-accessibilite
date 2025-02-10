@@ -46,6 +46,7 @@
 - Liens `<a href="">`
 - Boutons `<button>`
 - Formulaires `<form>`
+- Retour chariot `<br/>`
 - ...
 
 ##--##

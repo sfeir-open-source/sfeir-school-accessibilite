@@ -17,3 +17,41 @@ Sources :
 
 Notes:
 https://blog.mbadmb.com/accessibilite-numerique-constat-2022/
+
+
+##==##
+
+<!-- .slide: -->
+
+# Texte à faible contraste
+
+##==##
+
+<!-- .slide: -->
+
+# Alternatives manquantes
+
+<!-- .slide: -->
+
+##==##
+
+# Liens vides
+
+<!-- .slide: -->
+
+##==##
+
+# Labels manquants 
+
+<!-- .slide: -->
+
+##==##
+
+# Boutons vides
+
+<!-- .slide: -->
+
+##==##
+
+# Document language manquant
+

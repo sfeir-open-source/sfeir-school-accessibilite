@@ -1,5 +1,20 @@
 <!-- .slide: class="with-code-bg-dark" -->
 
+# aria-hidden
+
+* Si un élément ne doit pas être lu par les lecteurs d'écran:
+
+```
+<div aria-hidden="true">Un élément à cacher</div>
+```
+
+* Par défaut sa valeur est à false
+
+Notes:
+
+
+<!-- .slide: class="with-code-bg-dark" -->
+
 # Le masquage accessible
 
 * Le but est simple: enrichir la page de contenus textuels qui seront visuellement cachés

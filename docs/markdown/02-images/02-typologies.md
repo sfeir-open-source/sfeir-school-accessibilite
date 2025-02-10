@@ -39,6 +39,17 @@ https://www.w3.org/WAI/tutorials/images/decorative/
 
 ##==##
 
+<!-- .slide: class="with-code-bg-dark" -->
+
+## Les SVG
+
+> Image décorative le plus souvent, il est conseillé de les cacher le cas échéant
+
+<a href="https://www.w3.org/WAI/tutorials/images/decorative/">Decorative images - WCAG</a>
+<!-- ![center h-700](./assets/images/image-decorative.png) -->
+
+##==##
+
 <!-- .slide: .slide: data-background="#3d4349" class="transition" -->
 
 # Typologies d'images
@@ -101,6 +112,14 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-
 
 Notes:
 https://www.w3.org/WAI/tutorials/images/imagemap/
+
+##==##
+
+<!-- .slide: class="with-code-bg-dark" -->
+
+## Les SVG
+
+![center h-500](./assets/images/thumb-up-svg.svg)
 
 
 ##==##

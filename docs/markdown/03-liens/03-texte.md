@@ -22,7 +22,7 @@
 ✅ <a href="#">Site dédié aux salsifis</a>
 
 <div style="display:flex; justify-content: flex-start; align-items: start; gap: 10px; margin-top: 40px;">
-  ✅ <p style="margin: 0;">Lorem ipsum dolor sit amet. Et cupiditate impedit aut atque illum non dolorem maxime qui magni adipisci nam dicta dignissimos <a href="#">lire la suite</a></p>
+  ✅ <p style="margin: 0;">Si vous voulez en savoir plus sur les salsifis, vous pouvez <a href="#">lire la suite</a></p>
 </div>
 
 Notes:

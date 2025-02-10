@@ -3,6 +3,7 @@
 L'outil d'audit du gouvernemenent
 * Possibilité de choisir entre les différents types d'audit
 * Permet d'enregistrer et d'agir sur plusieurs pages en simultané
+* Permet de dupliquer les audits
 * Génère une déclaration d'accessibilité et son code HTML
 
 ##==##
