@@ -1,11 +1,27 @@
 import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-school-theme.mjs';
 
+const theme = document.querySelector('[data-theme-slides]').dataset.themeSlides;
 // One method per module
 function schoolSlides() {
+  if (theme === 'school') {
+    return [
+      '00-school/00-TITLE-school.md',
+      // '00-school/00-speaker-pierre.md',
+      '00-school/00-speaker-fanny.md',
+      '00-school/00-speaker-valentin.md',
+      '00-school/00-participant.md',
+      //'00-school/00-speaker-maella.md',
+      '00-school/00-deroulement.md',
+      '00-school/00-slides.md',
+      '00-school/00-repository.md',
+      '00-school/00-plan-school.md',
+    ];
+  }
+
   return [
     '00-school/00-TITLE.md',
-    '00-school/00-speaker-pierre.md',
-    //'00-school/00-speaker-fanny.md',
+    // '00-school/00-speaker-pierre.md',
+    '00-school/00-speaker-fanny.md',
     '00-school/00-participant.md',
     //'00-school/00-speaker-maella.md',
     '00-school/00-deroulement.md',
@@ -16,6 +32,26 @@ function schoolSlides() {
 }
 
 function introSlides() {
+  if (theme === 'school') {
+    return [
+      '01-intro/01-TITLE.md',
+      '01-intro/01-accessibilite.md',
+      '01-intro/01-destination.md',
+      '01-intro/01-handicap.md',
+      '01-intro/01-chiffres.md',
+      '01-intro/01-timeline.md',
+      '01-intro/01-legal.md',
+      '01-intro/01-erreurs.md',
+      // '01-intro/01-erreurs-2.md',
+      '01-intro/01-rgaa.md',
+      '01-intro/01-outils-assistance.md',
+      '01-intro/01-aria.md',
+      // '01-intro/01-aria02.md',
+      '01-intro/01-aria-rules.md',
+      '01-intro/01-masquage.md',
+    ];
+  }
+
   return [
     '01-intro/01-TITLE.md',
     '01-intro/01-accessibilite.md',
@@ -25,6 +61,7 @@ function introSlides() {
     '01-intro/01-timeline.md',
     '01-intro/01-legal.md',
     '01-intro/01-erreurs.md',
+    '01-intro/01-erreurs-2.md',
     '01-intro/01-rgaa.md',
     '01-intro/01-aria.md',
     // '01-intro/01-aria02.md',
@@ -34,6 +71,18 @@ function introSlides() {
 }
 
 function imagesSlides() {
+  if (theme === 'school') {
+    return [
+      '02-images/02-TITLE.md',
+      '02-images/02-typologies.md',
+      '02-images/02-alt02.md',
+      // '02-images/02-voiceover.md',
+      '02-images/02-workshop.md',
+      '02-images/02-workshop02.md',
+      '02-images/02-correction.md',
+    ];
+  }
+
   return [
     '02-images/02-TITLE.md',
     '02-images/02-typologies.md',
@@ -46,6 +95,18 @@ function imagesSlides() {
 }
 
 function linksSlides() {
+  if (theme === 'school') {
+    return [
+      '03-liens/03-TITLE.md',
+      '03-liens/03-texte.md',
+      '03-liens/03-image.md',
+      '03-liens/03-composite.md',
+      '03-liens/03-lien-vide.md',
+      '03-liens/03-workshop.md',
+      '03-liens/03-correction.md',
+    ];
+  }
+
   return [
     '03-liens/03-TITLE.md',
     '03-liens/03-texte.md',
@@ -89,7 +150,7 @@ function structureSlides() {
   return [
     '06-structure/06-TITLE.md',
     '06-structure/06-layout.md',
-    '06-structure/06-w3c-validator.md',
+    // '06-structure/06-w3c-validator.md',
     '06-structure/06-workshop.md',
     '06-structure/06-correction.md',
   ];
@@ -133,6 +194,15 @@ function ciSlides() {
 }
 
 function auditToolsSlides() {
+  if (theme === 'school') {
+    return [
+      '11-audit-tools/11-TITLE-school.md',
+      // '11-audit-tools/11-audit.md',
+      // '11-audit-tools/11-ara.md',
+      '11-audit-tools/11-tools.md',
+      // '11-audit-tools/11-workshop.md',
+    ];
+  }
   return [
     '11-audit-tools/11-TITLE.md',
     '11-audit-tools/11-audit.md',
@@ -144,9 +214,9 @@ function auditToolsSlides() {
 
 function conclusionSlides() {
   return [
-    '12-conclusion/12-recapbis.md',
+    // '12-conclusion/12-recapbis.md',
     '12-conclusion/12-TITLE.md',
-    '12-conclusion/12-misc.md',
+    // '12-conclusion/12-misc.md',
     '12-conclusion/12-ressources.md',
     '12-conclusion/12-conclusion.md',
     '12-conclusion/12-homeworkshop.md',
@@ -159,6 +229,29 @@ function bonusBisSlides() {
 }
 
 function formation() {
+  if (theme === 'school') {
+    return [
+      ...schoolSlides(),
+      ...introSlides(),
+      ...structureSlides(),
+      ...imagesSlides(),
+      ...linksSlides(),
+      ...colorsSlides(),
+      ...focusSlides(),
+      ...formsSlides(),
+      ...auditToolsSlides(),
+      // ...recapSlides(),
+      // ...bonusSlides(),
+      // ...formsSlides(),
+      // ...tabsSlides(),
+      // ...ciSlides(),
+      // ...auditToolsSlides(),
+      ...conclusionSlides(),
+      // ...bonusBisSlides(),
+    ].map((slidePath) => {
+      return { path: slidePath };
+    });
+  }
   return [
     ...schoolSlides(),
     ...introSlides(),
