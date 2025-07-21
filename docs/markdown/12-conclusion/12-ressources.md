@@ -12,7 +12,7 @@
 
 ## [Access42](https://access42.net/)
 
-## [Blog de Julie Monat](https://www.lalutineduweb.fr/theme/accessibilite/)
+## [Blog de Julie Moynat](https://www.lalutineduweb.fr/theme/accessibilite/)
 
 ## Images libres de droit : Unsplash
 
