@@ -2,7 +2,7 @@
 
 # A11Y, “bref” historique
 
-![center](./assets/images/timeline.png)
+![](./assets/images/timeline.png 'center')
 
 - Février 2021 : RGAA version 4.1
 - 5 Octobre 2023 : plublication de la [version 2.2 des WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/)

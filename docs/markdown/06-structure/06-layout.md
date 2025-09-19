@@ -9,7 +9,9 @@
   - Contenu principal
   - Pied de page du site
 
+
 ##==##
+
 
 
 ## Exemple
@@ -30,9 +32,11 @@
 <footer>...</footer>
 ```
 
-##==##
 
-<!-- .slide: class="two-column" -->
+##==##
+<!-- .slide: class="tc-multiple-columns" -->
+
+##++##
 
 ## Éléments sémantiques
 
@@ -48,15 +52,17 @@
 - Formulaires `<form>`
 - Retour chariot `<br/>`
 - ...
-
-##--##
+##++##
+##++##
 
 ## Éléments non sémantiques
 
 - `<div>`
 - `<span>`
+##++##
 
 ##==##
+
 
 <!-- .slide: class="width-code" -->
 
@@ -69,7 +75,9 @@
 
 
 
+
 ##==##
+
 
 
 ## Exemple
@@ -83,7 +91,9 @@
 
 <p style="margin: 20px 96px">❌ <strong>Non valide :</strong> Les textes ne sont contenus dans aucun élément sémantique</p>
 
+
 ##==##
+
 
 
 ## Exemple
@@ -101,7 +111,9 @@
 </p>
 
 
+
 ##==##
+
 
 
 ## Exemple

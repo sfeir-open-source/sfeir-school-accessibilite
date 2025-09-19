@@ -9,9 +9,11 @@
   * Pour les en-têtes de colonnes, l'élément <th> doit avoir l'attribut scope="col" ;
   * Pour les en-têtes de lignes, l'élément <th> doit avoir l'attribut scope="row".
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 ## Exemple
 
@@ -34,7 +36,9 @@
  </tr>
 </table>
 
+
 ##==##
+
 
 <!-- .slide: class="with-code" -->
 

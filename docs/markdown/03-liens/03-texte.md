@@ -3,7 +3,9 @@
 > 6.1 Chaque lien est-il explicite (hors cas particuliers) ?
 [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#6.1)
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 

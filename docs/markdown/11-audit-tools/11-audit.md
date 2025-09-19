@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Audit d'évaluation et de conformité
 
@@ -9,9 +9,11 @@ Audit d'accessibilité avec niveaux de tests RGAA
 - Audit complet (106 critères)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Obligations légales
 

@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Déroulement de la formation
 

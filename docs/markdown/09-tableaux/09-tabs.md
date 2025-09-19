@@ -3,9 +3,11 @@
 > 5.1 Chaque tableau de données complexe a-t-il un résumé ? 
 > [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#5.1)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 ## De la bonne utilisation des tableaux
 
@@ -16,9 +18,11 @@
 Notes: 
 https://disic.github.io/guide-integrateur/4-tableaux.html
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 ## role="presentation"
 

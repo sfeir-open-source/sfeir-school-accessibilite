@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Plan Jour 1
 
@@ -12,9 +12,11 @@
 * Le focus et les interactions clavier
 * La structure
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Plan Jour 2
 

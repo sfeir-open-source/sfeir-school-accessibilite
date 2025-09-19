@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Les outils pour développeurs
 

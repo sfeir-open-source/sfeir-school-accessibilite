@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Outils de vocalisation
 

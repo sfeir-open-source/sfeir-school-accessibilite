@@ -2,7 +2,7 @@
 
 # Utilisation d'ARIA
 
-![center](./assets/images/fight-club.jpeg)
+![](./assets/images/fight-club.jpeg 'center')
 
 - [#Règle 1](https://www.w3.org/TR/using-aria/#firstrule) Si vous pouvez **utiliser des éléments HTML natifs**, [...] **faites-le**.
 

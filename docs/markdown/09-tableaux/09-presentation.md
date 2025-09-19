@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 ## Tableau de mise en forme
 

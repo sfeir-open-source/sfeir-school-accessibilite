@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 ## Tableau complexe
 
@@ -7,9 +7,11 @@
 * Pour rajouter de la lisibilité, on relie chaque cellule explicitement grâce à des identifiants et des attributs headers
 * Il lui faut un titre et une description
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 ## Exemple
 
@@ -47,7 +49,9 @@ Nombre de gares et points d'arrêts TER, en fonction du type de handicap et du t
 </table>
 
 
+
 ##==##
+
 
 <!-- .slide: class="with-code" -->
 

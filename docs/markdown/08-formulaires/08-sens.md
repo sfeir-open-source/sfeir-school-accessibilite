@@ -7,8 +7,10 @@ Notes:
 
 TODO: FAIRE IMPRIM ECRAN NON OUI
 
+
 ##==##
-<!-- .slide: -->
+
+
 
 # L'intitulé de chaque bouton est-il pertinent ?
 

@@ -1,14 +1,20 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # Trainer
 
-![speaker](./assets/images/gerome.jpeg)
-![company](./assets/images/logo-SFEIR-blanc.png)
+![](./assets/images/gerome.jpeg 'speaker')
+
+![](./assets/images/logo-SFEIR-blanc.png 'company')
+
 
 <h2>Gérôme <span>Grignon</span></h2>
 
 ### Developer
-<!-- .element: class="icon-rule icon-first" -->
+
 
 ### [@GeromeDEV](https://twitter.com/GeromeDEV)
-<!-- .element: class="icon-second" -->
+
+</div>
+

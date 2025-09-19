@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Le lecteur d'écran
 

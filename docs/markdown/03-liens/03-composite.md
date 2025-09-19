@@ -19,7 +19,9 @@ Si l'image est porteuse d'information, son alternative doit être renseignée
 </a>
 ```
 
+
 ##==##
+
 
 <!-- .slide: class="with-code" -->
 

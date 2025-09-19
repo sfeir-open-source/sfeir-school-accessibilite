@@ -4,7 +4,7 @@
 
 WCAG Decision tree: https://www.w3.org/WAI/tutorials/images/decision-tree/
 
-![center h-500](./assets/images/qr-decision-tree.png)
+![](./assets/images/qr-decision-tree.png 'center h-500')
 
 Notes:
 Trois types d'images:

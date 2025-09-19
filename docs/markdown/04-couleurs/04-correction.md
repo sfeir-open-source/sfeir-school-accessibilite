@@ -5,9 +5,9 @@
 Couleurs:
 
 **Avant**
-![h-200](./assets/images/colors-before.png)
+![](./assets/images/colors-before.png 'h-200')
 
 **Après**
-![h-200](./assets/images/colors-after.png)
+![](./assets/images/colors-after.png 'h-200')
 
 Notes:

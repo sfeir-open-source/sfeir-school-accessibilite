@@ -3,7 +3,9 @@
 > 1.1 Chaque image porteuse d’information a-t-elle une alternative textuelle ?
 [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.1)
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -16,7 +18,9 @@
 Notes:
 https://www.w3.org/WAI/tutorials/images/informative/
 
+
 ##==##
+
 
 <!-- .slide: class="quote-slide" -->
 
@@ -26,7 +30,9 @@ https://www.w3.org/WAI/tutorials/images/informative/
 Notes:
 https://www.w3.org/WAI/tutorials/images/decorative/
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -35,9 +41,11 @@ https://www.w3.org/WAI/tutorials/images/decorative/
 > « Les images décoratives sont des images qui n’apportent pas d’information supplémentaire au contenu de la page. Elles sont utilisées pour améliorer l’expérience utilisateur et ne sont pas essentielles à la compréhension du contenu. »
 
 <a href="https://www.w3.org/WAI/tutorials/images/decorative/">Decorative images - WCAG</a>
-<!-- ![center h-700](./assets/images/image-decorative.png) -->
+<!-- ![](./assets/images/image-decorative.png 'center h-700') -->
+
 
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -46,56 +54,66 @@ https://www.w3.org/WAI/tutorials/images/decorative/
 > Image décorative le plus souvent, il est conseillé de les cacher le cas échéant
 
 <a href="https://www.w3.org/WAI/tutorials/images/decorative/">Decorative images - WCAG</a>
-<!-- ![center h-700](./assets/images/image-decorative.png) -->
+<!-- ![](./assets/images/image-decorative.png 'center h-700') -->
+
 
 ##==##
+
 
 <!-- .slide: .slide: data-background="#3d4349" class="transition" -->
 
 # Typologies d'images
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
 ## Les images fonctionnelles
 
-![center h-700](./assets/images/image-fonctionnelle.jpeg)
+![](./assets/images/image-fonctionnelle.jpeg 'center h-700')
 
 Notes:
 https://www.w3.org/WAI/tutorials/images/functional/
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
 ## Les images contenant du texte
 
-![center h-700](./assets/images/image-text.webp)
+![](./assets/images/image-text.webp 'center h-700')
 
 
 Notes:
 https://www.w3.org/WAI/tutorials/images/textual/
 https://www.youtube.com/watch?v=k2GjNsBCA48
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
 ## Les images complexes
 
-![center h-700](./assets/images/image-complexe.jpg)
+![](./assets/images/image-complexe.jpg 'center h-700')
 
 Notes:
 https://www.w3.org/WAI/tutorials/images/complex/
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
 ## Les images regroupées
 
-![center h-700](./assets/images/image-regroupees.png)
+![](./assets/images/image-regroupees.png 'center h-700')
 
 
 Notes:
@@ -104,25 +122,31 @@ https://www.w3.org/WAI/tutorials/images/groups/
 attention aux faux amis avec aria-current qui ne permet pas de valeur pour ce cas.
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current#values
 
+
 ##==##
+
 
 ## Les images maps
 
-![center h-700](./assets/images/image-maps.png)
+![](./assets/images/image-maps.png 'center h-700')
 
 Notes:
 https://www.w3.org/WAI/tutorials/images/imagemap/
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
 ## Les SVG
 
-![center h-500](./assets/images/thumb-up-svg.svg)
+![](./assets/images/thumb-up-svg.svg 'center h-500')
+
 
 
 ##==##
+
 
 <!-- .slide: class="quote-slide" -->
 
@@ -130,7 +154,9 @@ https://www.w3.org/WAI/tutorials/images/imagemap/
 [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.3)
 <!-- WCAG propose un decision tree particulièrement efficace -->
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -141,7 +167,9 @@ https://www.w3.org/WAI/tutorials/images/decision-tree/
 <img src="./assets/images/qr-decision-tree.png" alt="" class="center h-500"/>
 
 
+
 ##==##
+
 
 ## Vocaliser une image
 

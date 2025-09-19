@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Quelques outils pratiques:
 

@@ -6,15 +6,19 @@ L'outil d'audit du gouvernemenent
 * Permet de dupliquer les audits
 * Génère une déclaration d'accessibilité et son code HTML
 
-##==##
-
-<!-- .slide: -->
-
-![center h-900](./assets/images/ara.png)
 
 ##==##
 
-<!-- .slide: -->
+
+
+
+![](./assets/images/ara.png 'center h-900')
+
+
+##==##
+
+
+
 
 # La déclaration d'accessibilité
 

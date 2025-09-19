@@ -1,13 +1,17 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # And you ?
 
-![speaker](./assets/images/learn-icon.svg)
+![](./assets/images/learn-icon.svg 'speaker')
+
 
 <h2>Firstname <span>LASTNAME</span></h2>
 
 ### Your job
-<!-- .element: class="icon-rule icon-first" -->
+
+</div>
 
 Notes: 
 Pauline

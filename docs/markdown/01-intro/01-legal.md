@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Avancées légales
 
@@ -22,9 +22,11 @@
 
 </div>
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Autorités de contrôle
 

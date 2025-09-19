@@ -2,6 +2,6 @@
 
 # Un spectre large
 
-![center h-700](./assets/images/types-handicap.jpeg)
+![](./assets/images/types-handicap.jpeg 'center h-700')
 
 Notes:

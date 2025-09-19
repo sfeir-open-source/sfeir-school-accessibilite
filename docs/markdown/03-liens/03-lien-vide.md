@@ -3,7 +3,9 @@
 > 6.2 Dans chaque page web, chaque lien a t-il un intitulé ?
 [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#6.2)
 
+
 ##==##
+
 
 <!-- .slide: class="with-code big-code" -->
 

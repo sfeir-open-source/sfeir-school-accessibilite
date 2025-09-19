@@ -13,9 +13,11 @@ Compte bancaires -> chiffres en rouges pour un compte à découvert
 Les liens sont le plus souvent soulignés afin d'indiquer son interactivité
 Ne pas faire référence à un élément par la couleur : « Les champs en rouge doivent être saisis » ;
 
-##==##
 
-<!-- .slide: class="two-column" -->
+##==##
+<!-- .slide: class="tc-multiple-columns" -->
+
+##++##
 
 ## Don't
 Utiliser la couleur comme seul vecteur d'information
@@ -30,8 +32,8 @@ Utiliser la couleur comme seul vecteur d'information
 </div>
 <br>
 <img src="./assets/images/invalid-input.png" alt="champ de formulaire avec une bordure rouge" class="h-300">
-
-##--##
+##++##
+##++##
 
 ## Do
 Identifier l'information en ne passant pas que par la couleur
@@ -46,3 +48,4 @@ Identifier l'information en ne passant pas que par la couleur
 </div>
 <br>
 <img src="./assets/images/invalid-input-with-error.png" alt="champ de formulaire avec une bordure rouge et un texte indiquant l'erreur" class="h-300">
+##++##

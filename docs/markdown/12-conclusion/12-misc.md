@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Que reste-t-il ?
 
@@ -20,4 +20,6 @@ Notes:
 
 Notes:
 
+
 ##==##
+

@@ -17,7 +17,9 @@ Notes:
 https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA
 https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA/Attributes
 
+
 ##==##
+
 <!-- .slide -->
 
 <h1>aria-labelledby <span style="font-size: 44px; opacity: 0.7;">vs</span> aria-label <span style="font-size: 44px; opacity: 0.7;">vs</span> contenu</h1>

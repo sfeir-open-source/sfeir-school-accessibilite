@@ -2,9 +2,11 @@
 
 # **Récap**
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Formulaires
 
@@ -13,9 +15,11 @@
 * Les contrôles doivent être précisés
 * L'intitulé de chaque bouton est-il pertinent ?
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Tableaux
 
@@ -25,9 +29,11 @@
 * Tableau simple
 * Tableau complexe
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Audit
 

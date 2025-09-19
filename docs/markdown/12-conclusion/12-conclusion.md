@@ -1,1 +1,1 @@
-![center h-900](./assets/images/stephaniewalter-people-first-accessibilite-besoins-handicapes.jpg)
+![](./assets/images/stephaniewalter-people-first-accessibilite-besoins-handicapes.jpg 'center h-900')

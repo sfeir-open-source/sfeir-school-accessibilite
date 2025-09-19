@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Des bienfaits de l'évangélisation
 

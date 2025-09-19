@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 #  2: Les cadres 
 
@@ -7,9 +7,11 @@
 * Le titre et sa pertinence
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 4: Le multimedia
 
@@ -19,9 +21,11 @@
   - Controlâbles (4.10, 4.11 & 4.12)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 4: Le multimedia
 
@@ -42,9 +46,11 @@ Le média temporel fait partie d’un test qui deviendrait inutile si la transcr
 Pour les services de l’État, les collectivités territoriales et leurs établissements : si le média temporel a été publié entre le 23 septembre 2019 et le 23 septembre 2020 sur un site internet, intranet ou extranet créé depuis le 23 septembre 2018, il est exempté de l’obligation d’accessibilité ;
 Pour les personnes de droit privé mentionnées aux 2° à 4° du I de l’article 47 de la loi du 11 février 2005 : si le média temporel a été publié avant le 23 septembre 2020, il est exempté de l’obligation d’accessibilité.
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 8: Les éléments obligatoires
 
@@ -54,9 +60,11 @@ Pour les personnes de droit privé mentionnées aux 2° à 4° du I de l’artic
 * Sens de lecture (8.10)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 8: Les éléments obligatoires
 

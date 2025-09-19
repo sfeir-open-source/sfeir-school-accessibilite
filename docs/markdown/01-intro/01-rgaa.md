@@ -1,6 +1,6 @@
 # WCAG
 
-![center h-500](./assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg)
+![](./assets/images/stephaniewalter-sommets-de-l-accessibilite.jpg 'center h-500')
 
 - Web Content Accessibility Guidelines
 
@@ -10,49 +10,59 @@
 
 - POUR (Perceivable, Operable, Understandable, Robust), piliers du WCAG
 
+
 ##==##
+
 
 # Perceivable - Perceptible
 
-![center h-500](./assets/images/perceivable.jpeg)
+![](./assets/images/perceivable.jpeg 'center h-500')
 
 - Faciliter la perception visuelle et auditive du contenu
 - Proposer des équivalents textuels
 - Mise en page simplifiée
 
+
 ##==##
+
 
 # Operable - Utilisable
 
-![center h-500](./assets/images/operable.jpeg)
+![](./assets/images/operable.jpeg 'center h-500')
 
 - Fournir des éléments d'orientation pour naviguer et trouver le contenu
 - Accessibilité via clavier
 - Laisser le temps de consulter
 - Prévénir l'épilepsie
 
+
 ##==##
+
 
 # Understandable - Compréhensible
 
-![center h-500](./assets/images/understandable.jpeg)
+![](./assets/images/understandable.jpeg 'center h-500')
 
 - Les pages doivent fonctionner de manière prévisible
 - Correction de saisie
 - Penser aux traductions
 
+
 ##==##
+
 
 # Robust - Robuste
 
-![center h-500](./assets/images/robust.jpeg)
+![](./assets/images/robust.jpeg 'center h-500')
 
 - Optimiser la compatibilité avec les utilisations actuelles et futures
 - S'intéresser aux technologies d'assistance
 
+
 ##==##
 
-![float-left h-1000](./assets/images/rgaa.png)
+
+![](./assets/images/rgaa.png 'float-left h-1000')
 
 # RGAA
 

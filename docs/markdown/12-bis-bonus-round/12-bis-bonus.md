@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # 7: Les scripts
 
@@ -8,9 +8,11 @@
 * Messages de statut signalés (7.5)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 #  9: La structuration de l'information
 
@@ -20,9 +22,11 @@
 * Les citations (blockquote) (9.4)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 10: La présentation de l'information 
 
@@ -33,9 +37,11 @@
 * Outline pour le focus (10.7)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 10: La présentation de l'information 
 
@@ -45,9 +51,11 @@
 * L'espacement entre les lettres possible (10.12)
 * Tooltip et autres contenus additionnels controlâbles (10.13 & 10.14)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 12: La navigation
 
@@ -57,9 +65,11 @@
   - Valide et pertinent (12.3)
   - Accessible (12.4 & 12.5)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 12: La navigation
 
@@ -68,9 +78,11 @@
 * Les raccourcis clavier controlâbles (12.10)
 * Tooltip et autres contenus additionnels atteignables (12.11)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 13: La consultation 
 
@@ -81,9 +93,11 @@
 * Pas de changement brusque de luminosité ou de flash (13.7)
 
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # 13: La consultation 
 

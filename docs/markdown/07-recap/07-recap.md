@@ -7,9 +7,11 @@
 * RGAA & WCAG
 * ARIA
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Images
 
@@ -20,9 +22,11 @@
 * Images maps
 * N'oubliez pas les alt (decision tree)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Liens
 
@@ -32,9 +36,11 @@
 * Lien composite avec image décorative
 * Lien vide
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Couleurs
 
@@ -42,9 +48,11 @@
 * Respecter les contrastes
 * Servez-vous des outils à disposition
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Focus
 
@@ -52,9 +60,11 @@
 * Pas de piège au clavier
 * Attention au cas particulier de la modale
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Structure
 

@@ -6,6 +6,8 @@ WCAG propose un decision tree particulièrement efficace:
 Notes:
 
 
+
 ##==##
+
 
 ## Arbre de décision

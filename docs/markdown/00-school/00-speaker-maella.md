@@ -1,17 +1,22 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # Trainer
 
-![speaker](./assets/images/maella.jpeg)
-![company](./assets/images/logo-SFEIR-blanc.png)
+![](./assets/images/maella.jpeg 'speaker')
+
+![](./assets/images/logo-SFEIR-blanc.png 'company')
+
 
 <h2>Maëlla <span>Bennecer</span></h2>
 
 ### Developer
-<!-- .element: class="icon-rule icon-first" -->
+
 
 ### [@Bennecer](https://github.com/Bennecer)
-<!-- .element: class="icon-second" -->
+
+</div>
 
 Notes:
 

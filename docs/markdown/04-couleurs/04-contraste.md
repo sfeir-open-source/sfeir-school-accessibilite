@@ -3,9 +3,11 @@
 > 3.2 Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
 > [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.2)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 # Les contrastes
 Les contrastes peuvent varier en fonction de la taille du texte et de son affichage en gras ou non
 

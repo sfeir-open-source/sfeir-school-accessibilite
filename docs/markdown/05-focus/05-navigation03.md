@@ -3,9 +3,11 @@
 > 10.13 Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
 > [source](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#10.13)
 
+
 ##==##
 
-<!-- .slide: -->
+
+
 
 # Cas particuliers du critère 10.13
 

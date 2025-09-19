@@ -1,19 +1,29 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # Trainer
 
-![speaker](./assets/images/speaker-fanny.jpeg)
+![](./assets/images/speaker-fanny.jpeg 'speaker')
 
-<!-- ![badge first-badge](./assets/images/js-logo.png) -->
-![badge first-badge](./assets/images/angular-logo.png)
-![badge second-badge](./assets/images/HTML5-logo.png)
-![badge third-badge](./assets/images/CSS3-logo.png)
-![company](./assets/images/logo-sfeir-blanc.png)
+
+<!-- ![](./assets/images/js-logo.png 'badge badge')
+ -->
+![](./assets/images/angular-logo.png 'badge badge')
+
+![](./assets/images/HTML5-logo.png 'badge badge')
+
+![](./assets/images/CSS3-logo.png 'badge badge')
+
+![](./assets/images/logo-sfeir-blanc.png 'company')
+
 
 <h2>Fanny <span>Weisenburger</span></h2>
 
 ### Web Developer
-<!-- .element: class="icon-rule icon-first" -->
 
-### 
-<!-- .element: class="icon-second" -->
+
+###
+
+</div>
+

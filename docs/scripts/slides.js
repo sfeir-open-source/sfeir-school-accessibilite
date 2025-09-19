@@ -1,6 +1,6 @@
-import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-school-theme.mjs';
+import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/dist/sfeir-school-theme.mjs';
 
-const theme = document.querySelector('[data-theme-slides]').dataset.themeSlides;
+const theme = document.querySelector('[data-theme]').dataset.theme;
 // One method per module
 function schoolSlides() {
   if (theme === 'school') {

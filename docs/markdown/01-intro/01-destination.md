@@ -4,17 +4,21 @@
 
 - Chaque type d'handicap a ses propres besoins
 
-- On peut créer un ensemble cohérent &nbsp;![sfeir-icons big](sun)<!-- .element: style="--icon-color:blue;" -->
+- On peut créer un ensemble cohérent &nbsp;![](sun 'tc-icons feather tc-big')<!-- .element: style="--tc-icon-color:blue;" -->
 
 - Importance des critères et référentiels d'accessibilité
 
+
 ##==##
+
 
 # Spectre détaillé
 
-![center h-700](./assets/images/types-handicap.jpeg)
+![](./assets/images/types-handicap.jpeg 'center h-700')
+
 
 ##==##
+
 
 # Déterminer le besoin des personnes concernées
 
