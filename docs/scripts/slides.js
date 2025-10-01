@@ -1,38 +1,37 @@
 import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/dist/sfeir-school-theme.mjs';
 
-const theme = document.querySelector('[data-theme]').dataset.theme;
 // One method per module
-function schoolSlides() {
-  if (theme === 'school') {
+function schoolSlides(dataType) {
+  if (dataType === 'institute') {
     return [
-      '00-school/00-TITLE-school.md',
+      '00-school/00-TITLE.md',
       // '00-school/00-speaker-pierre.md',
       '00-school/00-speaker-fanny.md',
-      '00-school/00-speaker-valentin.md',
       '00-school/00-participant.md',
       //'00-school/00-speaker-maella.md',
       '00-school/00-deroulement.md',
       '00-school/00-slides.md',
       '00-school/00-repository.md',
-      '00-school/00-plan-school.md',
+      '00-school/00-plan.md',
     ];
   }
 
   return [
-    '00-school/00-TITLE.md',
+    '00-school/00-TITLE-school.md',
     // '00-school/00-speaker-pierre.md',
     '00-school/00-speaker-fanny.md',
+    '00-school/00-speaker-valentin.md',
     '00-school/00-participant.md',
     //'00-school/00-speaker-maella.md',
     '00-school/00-deroulement.md',
     '00-school/00-slides.md',
     '00-school/00-repository.md',
-    '00-school/00-plan.md',
+    '00-school/00-plan-school.md',
   ];
 }
 
-function introSlides() {
-  if (theme === 'school') {
+function introSlides(dataType) {
+  if (dataType === 'institute') {
     return [
       '01-intro/01-TITLE.md',
       '01-intro/01-accessibilite.md',
@@ -42,9 +41,8 @@ function introSlides() {
       '01-intro/01-timeline.md',
       '01-intro/01-legal.md',
       '01-intro/01-erreurs.md',
-      // '01-intro/01-erreurs-2.md',
+      '01-intro/01-erreurs-2.md',
       '01-intro/01-rgaa.md',
-      '01-intro/01-outils-assistance.md',
       '01-intro/01-aria.md',
       // '01-intro/01-aria02.md',
       '01-intro/01-aria-rules.md',
@@ -61,8 +59,9 @@ function introSlides() {
     '01-intro/01-timeline.md',
     '01-intro/01-legal.md',
     '01-intro/01-erreurs.md',
-    '01-intro/01-erreurs-2.md',
+    // '01-intro/01-erreurs-2.md',
     '01-intro/01-rgaa.md',
+    '01-intro/01-outils-assistance.md',
     '01-intro/01-aria.md',
     // '01-intro/01-aria02.md',
     '01-intro/01-aria-rules.md',
@@ -70,13 +69,13 @@ function introSlides() {
   ];
 }
 
-function imagesSlides() {
-  if (theme === 'school') {
+function imagesSlides(dataType) {
+  if (dataType === 'institute') {
     return [
       '02-images/02-TITLE.md',
       '02-images/02-typologies.md',
       '02-images/02-alt02.md',
-      // '02-images/02-voiceover.md',
+      '02-images/02-voiceover.md',
       '02-images/02-workshop.md',
       '02-images/02-workshop02.md',
       '02-images/02-correction.md',
@@ -87,15 +86,15 @@ function imagesSlides() {
     '02-images/02-TITLE.md',
     '02-images/02-typologies.md',
     '02-images/02-alt02.md',
-    '02-images/02-voiceover.md',
+    // '02-images/02-voiceover.md',
     '02-images/02-workshop.md',
     '02-images/02-workshop02.md',
     '02-images/02-correction.md',
   ];
 }
 
-function linksSlides() {
-  if (theme === 'school') {
+function linksSlides(dataType) {
+  if (dataType === 'institute') {
     return [
       '03-liens/03-TITLE.md',
       '03-liens/03-texte.md',
@@ -118,7 +117,7 @@ function linksSlides() {
   ];
 }
 
-function colorsSlides() {
+function colorsSlides(dataType) {
   return [
     '04-couleurs/04-TITLE.md',
     '04-couleurs/04-couleurs-vs-informations.md',
@@ -132,7 +131,7 @@ function colorsSlides() {
   ];
 }
 
-function focusSlides() {
+function focusSlides(dataType) {
   return [
     '05-focus/05-TITLE.md',
     '05-focus/05-navigation.md',
@@ -146,7 +145,7 @@ function focusSlides() {
   ];
 }
 
-function structureSlides() {
+function structureSlides(dataType) {
   return [
     '06-structure/06-TITLE.md',
     '06-structure/06-layout.md',
@@ -156,15 +155,15 @@ function structureSlides() {
   ];
 }
 
-function recapSlides() {
+function recapSlides(dataType) {
   return ['07-recap/07-TITLE.md', '07-recap/07-recap.md'];
 }
 
-function bonusSlides() {
+function bonusSlides(dataType) {
   return ['07-bis-bonus-round/07-bis-TITLE.md', '07-bis-bonus-round/07-bis-bonus.md'];
 }
 
-function formsSlides() {
+function formsSlides(dataType) {
   return [
     '08-formulaires/08-TITLE.md',
     '08-formulaires/08-labels.md',
@@ -178,7 +177,7 @@ function formsSlides() {
   ];
 }
 
-function tabsSlides() {
+function tabsSlides(dataType) {
   return ['09-tableaux/09-TITLE.md',
     '09-tableaux/09-tabs.md',
     '09-tableaux/09-simple.md',
@@ -189,30 +188,30 @@ function tabsSlides() {
   ];
 }
 
-function ciSlides() {
+function ciSlides(dataType) {
   return ['10-ci/10-TITLE.md', '10-ci/10-ci.md', '10-ci/10-evangelisation.md'];
 }
 
-function auditToolsSlides() {
-  if (theme === 'school') {
+function auditToolsSlides(dataType) {
+  if (dataType === 'institute') {
+    return [
+      '11-audit-tools/11-TITLE.md',
+      '11-audit-tools/11-audit.md',
+      '11-audit-tools/11-ara.md',
+      '11-audit-tools/11-tools.md',
+      '11-audit-tools/11-workshop.md',
+    ];
+  }
     return [
       '11-audit-tools/11-TITLE-school.md',
       // '11-audit-tools/11-audit.md',
       // '11-audit-tools/11-ara.md',
       '11-audit-tools/11-tools.md',
       // '11-audit-tools/11-workshop.md',
-    ];
-  }
-  return [
-    '11-audit-tools/11-TITLE.md',
-    '11-audit-tools/11-audit.md',
-    '11-audit-tools/11-ara.md',
-    '11-audit-tools/11-tools.md',
-    '11-audit-tools/11-workshop.md',
   ];
 }
 
-function conclusionSlides() {
+function conclusionSlides(dataType) {
   return [
     // '12-conclusion/12-recapbis.md',
     '12-conclusion/12-TITLE.md',
@@ -224,50 +223,50 @@ function conclusionSlides() {
 }
 
 
-function bonusBisSlides() {
+function bonusBisSlides(dataType) {
   return ['12-bis-bonus-round/12-bis-TITLE.md', '12-bis-bonus-round/12-bis-bonus.md'];
 }
 
-function formation() {
-  if (theme === 'school') {
+function formation(dataType) {
+  if (dataType === 'institute') {
     return [
-      ...schoolSlides(),
-      ...introSlides(),
-      ...structureSlides(),
-      ...imagesSlides(),
-      ...linksSlides(),
-      ...colorsSlides(),
-      ...focusSlides(),
-      ...formsSlides(),
-      ...auditToolsSlides(),
-      // ...recapSlides(),
-      // ...bonusSlides(),
-      // ...formsSlides(),
-      // ...tabsSlides(),
-      // ...ciSlides(),
-      // ...auditToolsSlides(),
-      ...conclusionSlides(),
-      // ...bonusBisSlides(),
+      ...schoolSlides(dataType),
+      ...introSlides(dataType),
+      ...imagesSlides(dataType),
+      ...linksSlides(dataType),
+      ...colorsSlides(dataType),
+      ...focusSlides(dataType),
+      ...structureSlides(dataType),
+      ...recapSlides(dataType),
+      ...bonusSlides(dataType),
+      ...formsSlides(dataType),
+      ...tabsSlides(dataType),
+      ...ciSlides(dataType),
+      ...auditToolsSlides(dataType),
+      ...conclusionSlides(dataType),
+      ...bonusBisSlides(dataType),
     ].map((slidePath) => {
       return { path: slidePath };
     });
   }
   return [
-    ...schoolSlides(),
-    ...introSlides(),
-    ...imagesSlides(),
-    ...linksSlides(),
-    ...colorsSlides(),
-    ...focusSlides(),
-    ...structureSlides(),
-    ...recapSlides(),
-    ...bonusSlides(),
-    ...formsSlides(),
-    ...tabsSlides(),
-    ...ciSlides(),
-    ...auditToolsSlides(),
-    ...conclusionSlides(),
-    ...bonusBisSlides(),
+    ...schoolSlides(dataType),
+    ...introSlides(dataType),
+    ...structureSlides(dataType),
+    ...imagesSlides(dataType),
+    ...linksSlides(dataType),
+    ...colorsSlides(dataType),
+    ...focusSlides(dataType),
+    ...formsSlides(dataType),
+    ...auditToolsSlides(dataType),
+    // ...recapSlides(dataType),
+    // ...bonusSlides(dataType),
+    // ...formsSlides(dataType),
+    // ...tabsSlides(dataType),
+    // ...ciSlides(dataType),
+    // ...auditToolsSlides(dataType),
+    ...conclusionSlides(dataType),
+    // ...bonusBisSlides(dataType),
   ].map((slidePath) => {
     return { path: slidePath };
   });
