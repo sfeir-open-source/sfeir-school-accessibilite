@@ -19,9 +19,9 @@ function schoolSlides(dataType) {
   return [
     '00-school/00-TITLE-school.md',
     // '00-school/00-speaker-pierre.md',
-    // '00-school/00-speaker-fanny.md',
+    '00-school/00-speaker-fanny.md',
     // '00-school/00-speaker-valentin.md',
-    '00-school/00-speaker-julien.md',
+    // '00-school/00-speaker-julien.md',
     '00-school/00-participant.md',
     //'00-school/00-speaker-maella.md',
     '00-school/00-deroulement.md',
