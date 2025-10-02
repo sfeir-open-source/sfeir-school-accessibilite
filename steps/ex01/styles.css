@@ -2,16 +2,16 @@
 * Global
 **/
 body {
-    font-family: Arial, sans-serif;
-    background-color: pink;
+  font-family: Arial, sans-serif;
+  background-color: pink;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 15px;
-    color: #ffb6c1;
-    font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 15px;
+  color: #ffb6c1;
+  font-size: 20px;
 }
 .navbar a {
   text-decoration: none;
@@ -23,85 +23,85 @@ body {
 * Homepage
 **/
 .carousel {
-    display: flex;
-    overflow-x: none;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white;
+  display: flex;
+  overflow-x: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
 }
 .carousel img {
-    margin-right: 10px;
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 .carousel div {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .carousel h3,
 .carousel h4 {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 #carousel-view {
-    max-width: 80%;
-    flex: 1;
-    overflow: hidden;
+  max-width: 80%;
+  flex: 1;
+  overflow: hidden;
 }
 
 #card-container {
-    display: flex;
-    transform: translateX(var(--carousel-left));
+  display: flex;
+  transform: translateX(var(--carousel-left));
 }
 
 #left-arrow,
 #right-arrow {
-    align-self: stretch;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
 }
 
 #left-arrow:not(.disabled),
 #right-arrow:not(.disabled) {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #left-arrow.disabled,
 #right-arrow.disabled {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .card {
-    min-width: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .atelier {
-    padding: 50px;
+  padding: 50px;
 }
 
 #photo-atelier {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bye {
-    padding: 50px;
+  padding: 50px;
 }
 
 #photo-bye {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-button {
@@ -111,49 +111,49 @@ body {
 }
 
 .infos {
-    font-size: 35px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    color: #ffb6c1;
+  font-size: 35px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #ffb6c1;
 }
 
 /**
 * Account
 **/
 form {
-    margin: 20px;
+  margin: 20px;
 }
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
-input[type="text"],
-input[type="email"] {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+input[type='text'],
+input[type='email'] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-input[type="radio"] {
-    margin-right: 5px;
+input[type='radio'] {
+  margin-right: 5px;
 }
 
 .submit-btn {
-    padding: 12px 30px;
-    border: none;
-    border-radius: 25px;
-    background-color: #ffb6c1;
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffb6c1;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
-    background-color: #ff69b4;
+  background-color: #ff69b4;
 }
