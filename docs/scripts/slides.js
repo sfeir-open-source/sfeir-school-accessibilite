@@ -2,17 +2,18 @@ import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/dist/sf
 
 // One method per module
 function schoolSlides(dataType) {
+  console.log('datatype', dataType);
   if (dataType === 'institute') {
     return [
       '00-school/00-TITLE.md',
-      // '00-school/00-speaker-pierre.md',
-      '00-school/00-speaker-fanny.md',
+      '00-school/00-speaker-pierre.md',
+      // '00-school/00-speaker-fanny.md',
       '00-school/00-participant.md',
       //'00-school/00-speaker-maella.md',
       '00-school/00-deroulement.md',
       '00-school/00-slides.md',
       '00-school/00-repository.md',
-      '00-school/00-plan.md',
+      '00-school/00-plan-intra.md',
     ];
   }
 
@@ -42,7 +43,7 @@ function introSlides(dataType) {
       '01-intro/01-timeline.md',
       '01-intro/01-legal.md',
       '01-intro/01-erreurs.md',
-      '01-intro/01-erreurs-2.md',
+      // '01-intro/01-erreurs-2.md',
       '01-intro/01-rgaa.md',
       '01-intro/01-aria.md',
       // '01-intro/01-aria02.md',
@@ -179,7 +180,8 @@ function formsSlides(dataType) {
 }
 
 function tabsSlides(dataType) {
-  return ['09-tableaux/09-TITLE.md',
+  return [
+    '09-tableaux/09-TITLE.md',
     '09-tableaux/09-tabs.md',
     '09-tableaux/09-simple.md',
     '09-tableaux/09-complexe.md',
@@ -223,13 +225,36 @@ function conclusionSlides(dataType) {
   ];
 }
 
-
 function bonusBisSlides(dataType) {
   return ['12-bis-bonus-round/12-bis-TITLE.md', '12-bis-bonus-round/12-bis-bonus.md'];
 }
 
 function formation(dataType) {
+  dataType = 'institute';
   if (dataType === 'institute') {
+    // to remove
+    const tempIntra = true;
+    if (tempIntra) {
+      return [
+        ...schoolSlides(dataType),
+        ...introSlides(dataType),
+        ...imagesSlides(dataType),
+        ...linksSlides(dataType),
+        ...colorsSlides(dataType),
+        ...focusSlides(dataType),
+        ...structureSlides(dataType),
+        ...formsSlides(dataType),
+        ...tabsSlides(dataType),
+        ...ciSlides(dataType),
+        ...auditToolsSlides(dataType),
+        ...recapSlides(dataType),
+        ...conclusionSlides(dataType),
+        ...bonusSlides(dataType),
+        ...bonusBisSlides(dataType),
+      ].map((slidePath) => {
+        return { path: slidePath };
+      });
+    }
     return [
       ...schoolSlides(dataType),
       ...introSlides(dataType),
